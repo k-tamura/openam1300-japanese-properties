@@ -1,87 +1,88 @@
 {
     "config" : {
         "dates" : {
-            "monthNames" : "January, February, March, April, May, June, July, August, September, October, November, December",
-            "monthNamesShort" : "Jan., Feb., Mar., Apr., May., Jun., Jul., Aug., Sep., Oct., Nov., Dec.",
-            "dayNames" : "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday",
-            "dayNamesShort" : "Sun. , Mon., Tue., Wed., Thu., Fri., Sat."
+            "monthNames" : "1月, 2月, 3月, 4月, 5月, 6月, 7月, 8月, 9月, 10月, 11月, 12月",
+            "monthNamesShort" : "1月, 2月, 3月, 4月, 5月, 6月, 7月, 8月, 9月, 10月, 11月, 12月",
+            "dayNames" : "日曜日, 月曜日, 火曜日, 水曜日, 木曜日, 金曜日, 土曜日",
+            "dayNamesShort" : "日, 月, 火, 水, 木, 金, 土"
         },
         "messages" : {
             "AppMessages" : {
-                "invalidRealm": "The realm doesn't exist",
-                "duplicateRealm": "Duplicate realm",
-                "deleteFail": "Failed to delete",
-                "duplicateItem": "Duplicate item",
-                "invalidItem": "Invalid item",
-                "changesSaved": "Changes saved"
+                "invalidRealm" : "レルムが存在しません。",
+                "duplicateRealm": "重複するレルムです。",
+                "deleteFail": "削除に失敗しました。",
+                "duplicateItem": "重複するアイテムです。",
+                "invalidItem": "不正なアイテムです。",
+                "changesSaved": "変更を保存しました。"
             },
             "CommonMessages" : {
-                "authenticationFailed" : "User name/password combination is invalid.",
-                "serviceUnavailable" : "Service unavailable",
-                "unknown" : "Unknown error. Please contact your Administrator",
-                "loggedIn" : "You have been successfully logged in.",
-                "errorFetchingData" : "Error fetching user data",
-                "loggedOut" : "You have been logged out.",
-                "loginTimeout" : "Login processed timed out. Restarting...",
-                "unauthorized" : "Unauthorized access",
-                "internalError" : "Internal server error",
-                "forbiddenError" : "Forbidden request error.",
-                "notFoundError" : "Not found error.",
-                "badRequestError" : "Bad request error.",
-                "conflictError" : "Detected conflict in request.",
-                "incorrectRevisionError" : "Cannot update the record because the version is not the latest.",
-                "tokenNotFound" : "Token not found.",
-                "securityDataChanged" : "Password was changed"
+                "authenticationFailed" : "ユーザー名/パスワードの組み合わせが不正です。",
+                "serviceUnavailable" : "サービスが利用できません。",
+                "unknown" : "不明なエラー。システム管理者にお問い合わせください。",
+                "loggedIn" : "正常にログインしました。",
+                "errorFetchingData" : "ユーザーデータフェッチ中のエラー。",
+                "loggedOut" : "ログアウトしました。",
+                "loginTimeout" : "ログインセッションがタイムアウトになりました。再起動しています...",
+                "unauthorized" : "不正なアクセスまたはセッションタイムアウトです。",
+                "internalError" : "内部サーバーエラー",
+                "forbiddenError": "閲覧禁止エラー。",
+                "notFoundError": "未検出エラー。",
+                "badRequestError" : "不正リクエストエラー。",
+                "conflictError" : "リクエストに競合を検出しました。",
+                "incorrectRevisionError" : "バージョンが最新ではないため、レコードを更新できません。",
+                "tokenNotFound" : "トークンが見つかりません。",
+                "securityDataChanged" : "パスワードが変更されました。"
             },
             "UserMessages" : {
-                "invalidOldPassword" : "Old password is invalid.",
-                "usernameNotFound" : "Username not found",
-                "noEmailProvided" : "No email provided in profile",
-                "emailNotSent" : "Email not sent",
-                "unableToRegister" : "Unable to register at this time. Please contact your Administrator",
-                "changedPassword" : "Password has been changed",
-                "profileUpdateFailed" : "Problem during profile update",
-                "profileUpdateSuccessful" : "Profile has been updated",
-                "userNameUpdated" : "Username has been modified successfully.",
-                "afterRegistration" : "Your account has been registered successfully.",
-                "siteIdentificationChanged" : "Site identification image has been changed",
-                "userAlreadyExists" : "User already exists",
-                "errorDeletingNotification" : "Error deleting notification.",
-                "errorFetchingNotifications" : "Error Fetching notifications.",
-                "identityNoSpace" : "Identity names may not have a space <br> character at the beginning or end.",
-                "selfRegistrationDisabled"  : "Self Registration is disabled."
+                "invalidOldPassword" : "旧パスワードが無効です。",
+                "usernameNotFound" : "ユーザー名が見つかりません。",
+                "noEmailProvided" : "プロファイルに電子メールが設定されていません。",
+                "emailNotSent" : "電子メールが送信されませんでした",
+                "unableToRegister" : "登録できませんでした。システム管理者にお問い合わせください。",
+                "changedPassword" : "パスワードが変更されました。",
+                "profileUpdateFailed" : "プロファイル更新中に問題が発生しました。",
+                "profileUpdateSuccessful" : "プロファイルが更新されました。",
+                "userNameUpdated" : "ユーザー名が正常に更新されました。",
+                "afterRegistration" : "アカウントが正常に登録されました。",
+                "siteIdentificationChanged" : "サイトの識別画像が変更されました。",
+                "userAlreadyExists" : "ユーザーがすでに存在します。",
+                "errorDeletingNotification" : "通知の削除エラー。",
+                "errorFetchingNotifications" : "通知の検索エラー。",
+                "identityNoSpace" : "アイデンティティ名の先頭または末尾に<br>空白を含めることはできません。",
+                "selfRegistrationDisabled"  : "自己登録は無効になっています。"
             },
             "AdminMessages" : {
-                "cannotDeleteYourself" : "You can't delete yourself",
-                "userDeleted" : "User has been deleted",
-                "userDeleteError" : "Error when deleting user",
-                "userApplicationsUpdate" : "Application settings have been changed.",
-                "completedTask" : "Task has been completed.",
-                "claimedTask" : "Task has been claimed.",
-                "unclaimedTask" : "Task has been unclaimed.",
-                "startedProcess" : "Process has been started",
+                "cannotDeleteYourself" : "自身を削除することはできません。",
+                "userDeleted" : "ユーザーが削除されました。",
+                "userDeleteError" : "ユーザーを削除する際にエラーが発生しました。",
+                "userApplicationsUpdate" : "アプリケーションの設定が変更されました。",
+                "completedTask" : "タスクが完了しました。",
+                "claimedTask" : "タスクが請求されています。",
+                "unclaimedTask" : "タスクが請求されていません。",
+                "startedProcess" : "プロセスが開始されました。"
                 "scripts": {
                     "error": {
-                        "noName": "Name is required",
-                        "noLanguage": "Language is required"
+                        "noName": "名前は必須です。",
+                        "noLanguage": "言語は必須です。"
                     }
                 },
                 "policies": {
-                    "unableToRetrievePolicy": "Unable to retrieve policy",
-                    "invalidResource": "Invalid resource",
-                    "duplicateResource": "Duplicate resource",
-                    "duplicateAttribute": "Duplicate attribute",
-                    "unableToPersistPolicy": "Unable to persist policy in datastore",
-                    "policiesUploaded": "Policies uploaded successfully",
-                    "policiesUploadFailed": "Failed to upload policies",
-                    "importFailed": "Import Failed: __applicationName__ policy set not found in realm",
+                    "unableToRetrievePolicy": "ポリシーを取得できません。",
+                    "invalidResource": "無効なリソースです。",
+                    "duplicateResource": "重複するリソースです。",
+                    "duplicateAttribute": "重複する属性です。",
+                    "duplicateRealm": "重複するレルムです。",
+                    "unableToPersistPolicy": "ポリシーをデータストアに永続化することができません。",
+                    "policiesUploaded": "ポリシーを正常にアップロードしました。",
+                    "policiesUploadFailed": "ポリシーのアップロードに失敗しました。",
+                    "importFailed": "インポートに失敗しました: __applicationName__ レルム内にポリシーセットが見つかりません。",
                     "error": {
-                        "cantStartWithHash": "LDAP entity can't start with #",
-                        "noName": "Name is required",
-                        "noResourceTypes": "Please select one or more resource types",
-                        "noResources": "Please select one or more resources",
-                        "noActions": "Please add one or more actions",
-                        "noPatterns": "Please add one or more patterns"
+                        "cantStartWithHash": "LDAPエンティティは # で始めることはできません。",
+                        "noName": "名前は必須です。",
+                        "noResourceTypes": "1つ以上のリソースタイプを選択してください。",
+                        "noResources": "1つ以上のリソースを選択してください。",
+                        "noActions": "1つ以上のアクションを追加してください。",
+                        "noPatterns": "1つ以上のパターンを追加してください。"
                     }
                 }
             }
@@ -89,37 +90,37 @@
         "AppConfiguration" : {
             "Navigation" : {
                 "links" : {
-                    "commonTasks": "Common Tasks",
+                    "commonTasks": "共通タスク",
                     "realms": {
-                        "title": "Realms",
-                        "showAll": "Show All",
-                        "newRealm": "New Realm",
-                        "viewAll": "View all..."
+                        "title": "レルム",
+                        "showAll": "すべて表示",
+                        "newRealm": "新規レルム",
+                        "viewAll": "すべて表示..."
                     },
-                    "federation": "Federation",
-                    "configuration": "Configuration",
-                    "sessions": "Sessions",
-                    "dashboard" : "Dashboard",
-                    "users" : "Users",
-                    "apps" : "Applications",
-                    "allApps" : "All applications",
-                    "addMore" : "Add more apps",
-                    "groups" : "Groups",
-                    "tasksMenu" : "Tasks",
-                    "allTasks" : "Tasks that are in my group's queue",
-                    "myTasks" : "My tasks",
-                    "startProcess" : "Start process",
-                    "oauthtokens" : "OAuth 2 Token Manager",
-                    "uma" : "Shares",
+                    "federation": "連携",
+                    "configuration": "設定",
+                    "sessions": "セッション",
+                    "dashboard" : "ダッシュボード",
+                    "users" : "ユーザー",
+                    "apps" : "アプリケーション",
+                    "allApps" : "すべてのアプリケーション",
+                    "addMore" : "アプリケーションの追加",
+                    "groups" : "グループ",
+                    "tasksMenu" : "タスク",
+                    "allTasks" : "グループのキューにあるタスク",
+                    "myTasks" : "マイタスク",
+                    "startProcess" : "処理を開始",
+                    "oauthtokens" : "OAuth 2 トークンマネージャー"
+                    "uma" : "共有",
                     "umaLinks": {
-                        "history" : "History",
-                        "resources" : "Resources",
-                        "requests" : "Requests"
+                        "history" : "履歴",
+                        "resources" : "リソース",
+                        "requests" : "リクエスト"
                     },
-                    "console": "Console"
+                    "console": "コンソール"
                 },
                 "username" : {
-                    "label" : "Signed in as"
+                    "label" : "サインイン"
                 }
             }
         }
@@ -127,57 +128,57 @@
     "templates" : {
         "user" : {
             "LoginDialog" : {
-                "refreshOnLogin" : "Should refresh on login"
+                "refreshOnLogin" : "ログイン時にリフレッシュする必要があります" 
             },
             "LoginTemplate" : {
-                "loginRemember" : "Remember my username",
-                "noAccountQuestion" : "Don't have an account?",
-                "registerAccount" : "Register your account",
-                "problemLoggingQuestion" : "Having trouble logging in?",
+                "loginRemember" : "ユーザー名を記憶する。",
+                "noAccountQuestion" : "アカウントを持っていないですか？",
+                "registerAccount" : "アカウントを登録してください。",
+                "problemLoggingQuestion" : "ログインのトラブルがありますか？",
                 "socialAuthentication" : "Or login with:",
-                "resetPassword" : "Forgot Password?",
+                "resetPassword" : "パスワードのリセット",
                 "forgotUsername" : "Forgot Username?"
             },
             "404" : {
-                "pageNotFound" : "Page not found",
-                "requestedPageCouldNotBeFound" : "The requested page could not be found."
+                "pageNotFound" : "ページが見つかりません。",
+                "requestedPageCouldNotBeFound" : "要求されたページが見つかりませんでした。"
             },
             "403" : {
                 "title" : "Forbidden",
                 "description" : "You are not authorized to view this page."
             },
             "DefaultBaseTemplate" : {
-                "orPhone" : ", or phone"
+                "orPhone" : "、または電話"
             },
             "ChangeSecurityDataDialogTemplate" : {
-                "securityDataChange" : "Security data change",
-                "enterNewPasswordToChange" : "Please enter new password in the fields below to change your password.",
-                "selectQuestionAndAnserIfYouWant" : "Please select question and enter your answer if you want to set up a one.",
-                "securityQuestionAndAnserExplanation" : "The Security Question selected and corresponding Answer provided by you will be used to help identify you in the event that you forget your password."
+                "securityDataChange" : "セキュリティデータの変更",
+                "enterNewPasswordToChange" : "パスワードを変更するには、以下のフィールドに新しいパスワードを入力してください。",
+                "selectQuestionAndAnserIfYouWant" : "設定する場合は、質問を選択しその答えを入力してください。",
+                "securityQuestionAndAnserExplanation" : "選択したセキュリティの質問とそれに対して設定した答えは、パスワードを忘れた場合にあなたを特定するために使用されます。"
             },
             "ConfirmPasswordDialogTemplate" : {
-                "title" : "Current Password",
-                "explanation1" : "Changing the following attributes requires re-authentication: ",
-                "explanation2" : "Please confirm your current password to continue."
+                "title" : "現在のパスワード",
+                "explanation1" : "次の属性を変更すると、再認証が必要になります: ",
+                "explanation2" : "継続するために現在のパスワードを確認してください。"
             },
             "ChangeSiteIdentificationDialogTemplate" : {
-                "siteImageAndPhaseExplanation" : "The Site Image and Phrase selected will be shown to you upon login to confirm that you are logging in to the genuine site"
+                "siteImageAndPhaseExplanation" : "選択したサイトのイメージとフレーズは、正当なサイトにログインすることを確認するためにログイン時に表示されます。"
             },
             "EnterOldPasswordDialog" : {
-                "passwordAndSecurityQuestionChange" : "Password and security question change",
-                "enterYourOldPassword" : "Please enter your old password"
+                "passwordAndSecurityQuestionChange" : "パスワードとセキュリティの質問の変更",
+                "enterYourOldPassword" : "古いパスワードを入力してください。"
             },
             "TermsOfUseTemplate" : {
-                "termsOfUse" : "Terms of use",
+                "termsOfUse" : "利用規約",
                 "termsOfUseContent" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris idvulputate urna. Quisque tristique dictum sodales. Nullam tempus eleifend erat,vel facilisis nibh euismod non. Phasellus vitae elit velit, in sollicitudindiam. Maecenas ornare nunc non ipsum ornare vehicula id sed dolor. Duispellentesque congue sapien, dictum adipiscing est posuere sit amet. Suspendissein lectus lorem. Suspendisse vitae metus sapien, sit amet luctus libero.Integer nec nunc sed massa pellentesque pulvinar. Integer vulputate nunc atnunc lacinia eu luctus neque elementum. Aenean ultricies arcu sed enimultricies blandit placerat ut massa. Donec at dolor sit amet magna vulputateelementum sit amet in sapien. Donec sit amet erat neque.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris idvulputate urna. Quisque tristique dictum sodales. Nullam tempus eleifend erat,vel facilisis nibh euismod non. Phasellus vitae elit velit, in sollicitudindiam. Maecenas ornare nunc non ipsum ornare vehicula id sed dolor. Duispellentesque congue sapien, dictum adipiscing est posuere sit amet. Suspendissein lectus lorem. Suspendisse vitae metus sapien, sit amet luctus libero.Integer nec nunc sed massa pellentesque pulvinar. Integer vulputate nunc atnunc lacinia eu luctus neque elementum. Aenean ultricies arcu sed enimultricies blandit placerat ut massa. Donec at dolor sit amet magna vulputateelementum sit amet in sapien. Donec sit amet erat neque.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris idvulputate urna. Quisque tristique dictum sodales. Nullam tempus eleifend erat,vel facilisis nibh euismod non. Phasellus vitae elit velit, in sollicitudindiam. Maecenas ornare nunc non ipsum ornare vehicula id sed dolor. Duispellentesque congue sapien, dictum adipiscing est posuere sit amet. Suspendissein lectus lorem. Suspendisse vitae metus sapien, sit amet luctus libero.Integer nec nunc sed massa pellentesque pulvinar. Integer vulputate nunc atnunc lacinia eu luctus neque elementum. Aenean ultricies arcu sed enimultricies blandit placerat ut massa. Donec at dolor sit amet magna vulputateelementum sit amet in sapien. Donec sit amet erat neque.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris idvulputate urna. Quisque tristique dictum sodales. Nullam tempus eleifend erat,vel facilisis nibh euismod non. Phasellus vitae elit velit, in sollicitudindiam. Maecenas ornare nunc non ipsum ornare vehicula id sed dolor. Duispellentesque congue sapien, dictum adipiscing est posuere sit amet. Suspendissein lectus lorem. Suspendisse vitae metus sapien, sit amet luctus libero.Integer nec nunc sed massa pellentesque pulvinar. Integer vulputate nunc atnunc lacinia eu luctus neque elementum. Aenean ultricies arcu sed enimultricies blandit placerat ut massa. Donec at dolor sit amet magna vulputateelementum sit amet in sapien. Donec sit amet erat neque.</p>"
             },
             "UserProfileTemplate" : {
-                "changeEmailAddress" : "Change Email Address",
-                "changeSecurityData" : "Change Password",
-                "changeSiteIdentification" : "Change Site Identification"
+                "changeEmailAddress" : "電子メールアドレスの変更",
+                "changeSecurityData" : "パスワードの変更",
+                "changeSiteIdentification" : "サイト ID の変更"
             },
             "RestLogoutTemplate" : {
-                "loggedOut" : "You have been logged out."
+                "loggedOut" : "ログアウトしました。"
             },
             "SessionExpiredTemplate" : {
                 "sessionExpired" : "Your session expired."
@@ -190,39 +191,39 @@
         "admin" : {
             "tasks" : {
                 "ShowUserProfile" : {
-                    "requestInitiator" : "Request initiated by"
+                    "requestInitiator" : "で開始された要求"
                 },
                 "TasksDashboardTemplate" : {
-                    "tasksFromGroupsQueue" : "Tasks that are in my group's queue"
+                    "tasksFromGroupsQueue" : "マイグループのキューにあるタスク。"
                 },
                 "ProcessUserTaskTableTemplate" : {
-                    "requestCount" : "__count__  request",
-                    "requestCount_plural" : "__count__  requests"
+                    "requestCount" : "__count__  要求",
+                    "requestCount_plural" : "__count__  要求"
                 }
             },
             "ChangeUserPasswordDialogTemplate" : {
-                "securityDataChange" : "Security data change",
-                "enterNewPasswordToChange" : "Please enter new password in the fields below to change user's password."
+                "securityDataChange" : "セキュリティデータの変更",
+                "enterNewPasswordToChange" : "パスワードを変更するには、以下のフィールドに新しいパスワードを入力してください。"
             },
             "UsersTemplate" : {
-                "remainingUsers" : "remaining users"
+                "remainingUsers" : "残りのユーザー"
             }
         },
         "oauth": {
-            "clientID" : "Client ID",
-            "tokenList" : "Authorized Apps",
-            "remainingTokens" : "remaining tokens",
-            "tokenID" : "Token ID",
-            "expireDate" : "Expire Date",
-            "scope" : "Scope",
-            "tokenType" : "Token Type",
-            "parent" : "Parent",
-            "username" : "Username",
-            "redirecturi" : "Redirect URI",
-            "refreshToken" : "Refresh Token",
-            "issued" : "Issued",
-            "realm" : "Realm",
-            "tokenInfo": "TokenInfo"
+            "clientID" : "クライアント ID",
+            "tokenList" : "認可済みのアプリケーション",
+            "remainingTokens" : "残りのトークン",
+            "tokenID" : "トークン ID",
+            "expireDate" : "有効期限",
+            "scope" : "スコープ",
+            "tokenType" : "トークンタイプ",
+            "parent" : "親",
+            "username" : "ユーザー名",
+            "redirecturi" : "リダイレクト URI",
+            "refreshToken" : "リフレッシュトークン",
+            "issued" : "発行済み",
+            "realm" : "レルム",
+            "tokenInfo": "トークン情報"
         },
         "login" : {
             "newHere": "New here?",
@@ -231,40 +232,40 @@
     },
     "common" : {
         "form" : {
-            "yes" : "Yes",
-            "no" : "No",
-            "true" : "True",
-            "false" : "False",
-            "add": "Add",
-            "update" : "Update",
-            "save" : "Save",
-            "create" : "Create",
-            "cancel" : "Cancel",
-            "reset" : "Reset",
-            "close" : "Close",
-            "clear": "Clear",
-            "logout" : "Log out",
-            "register" : "Register",
-            "home" : "Home",
-            "start" : "Start",
-            "name" : "Name",
-            "continue" : "Continue",
-            "next" : "Next",
-            "back" : "Back",
-            "delete" : "Delete",
-            "details" : "Details",
-            "pleaseSelect" : "Please Select",
-            "select" : "Select",
-            "addUser" : "Add user",
-            "decision" : "Decision",
-            "accept" : "Accept",
-            "reject" : "Reject",
-            "createdAt" : "Created at",
-            "createNew": "Create New",
-            "search" : "Search",
-            "submit" : "Submit",
-            "actions" : "Actions",
-            "complete" : "Complete",
+            "yes" : "はい",
+            "no" : "いいえ",
+            "true" : "真",
+            "false" : "偽",
+            "add": "追加",
+            "update" : "更新",
+            "save" : "保存",
+            "create" : "作成",
+            "cancel" : "キャンセル",
+            "reset" : "リセット",
+            "close" : "閉じる",
+            "clear": "クリア",
+            "logout" : "ログアウト",
+            "register" : "登録",
+            "home" : "ホーム",
+            "start" : "開始",
+            "name" : "名前",
+            "continue" : "継続",
+            "next" : "次へ",
+            "back" : "戻る",
+            "delete" : "削除",
+            "details" : "詳細",
+            "pleaseSelect" : "選択してください",
+            "select" : "選択",
+            "addUser" : "ユーザーの追加",
+            "decision" : "決定",
+            "accept" : "許可",
+            "reject" : "却下",
+            "createdAt" : "に作成されました",
+            "createNew": "新規作成",
+            "search" : "検索",
+            "submit" : "サブミット",
+            "actions" : "アクション",
+            "complete" : "完了",
             "revoke" : "Revoke",
             "done" : "Done",
             "ok" : "OK",
@@ -312,36 +313,36 @@
             "passwordPlaceholder": "••••••••••••",
             "redirecting": "Redirecting...",
             "validation" : {
-                "VALID_PHONE_FORMAT": "Contains invalid characters",
-                "VALID_NAME_FORMAT": "Contains invalid characters",
-                "VALID_EMAIL_ADDRESS_FORMAT": "Not a valid email address",
-                "AT_LEAST_X_CAPITAL_LETTERS" : "At least __numCaps__ capital letters",
-                "AT_LEAST_X_NUMBERS" : "At least __numNums__ numbers",
-                "CANNOT_CONTAIN_OTHERS" : "Cannot contain values from: __disallowedFields__",
-                "MIN_LENGTH" : "At least __minLength__ characters",
-                "REQUIRED" : "Cannot be blank",
-                "UNIQUE" : "Already exists",
+                "VALID_PHONE_FORMAT": "無効な文字が含まれています。",
+                "VALID_NAME_FORMAT": "無効な文字が含まれています。",
+                "VALID_EMAIL_ADDRESS_FORMAT": "電子メールアドレスが無効です。",
+                "AT_LEAST_X_CAPITAL_LETTERS" : "最低 __numCaps__ capital 文字以上は必要です。",
+                "AT_LEAST_X_NUMBERS" : "少なくとも __numNums__ 個以上は必要です。",
+                "CANNOT_CONTAIN_OTHERS" : "値を含めることはできません: __disallowedFields__",
+                "MIN_LENGTH" : "最低 __minLength__ 文字です。",
+                "REQUIRED" : "空白にすることはできません。",
+                "UNIQUE" : "すでに存在します。",
                 "REAUTH_REQUIRED" : "",
-                "formContainsErrors" : "Form contains validation errors",
-                "atLeastOneCapitalLetter" : "At least one capital letter",
-                "atLeastOneNumber" : "At least one number",
-                "atLeast8Characters" : "At least 8 characters",
-                "cannotMatchLogin" : "Cannot match login",
-                "confirmationMatchesPassword" : "Passwords must match",
-                "usernameExists" : "Username already exists",
-                "emailAddressAlreadyExists" : "Email address already exists",
-                "onlyAlphabeticCharacters" : "Only alphabetic characters",
-                "onlyNumbersAndSpecialCharacters" : "Only numbers and special characters",
-                "cannotMatchOldPassword" : "Cannot match old password",
-                "minimum4Characters" : "Minimum 4 characters",
-                "acceptanceRequiredForRegistration" : "Acceptance required for registration",
-                "incorrectPassword" : "Incorrect password",
-                "incorrectSecurityAnswer" : "Incorrect answer",
-                "required" : "Required",
-                "emailNotValid" : "Not a valid email address.",
-                "emailExists" : "Email address already exists.",
-                "shouldBeLong" : "Should be long value",
-                "wrongDateFormat" : "Wrong format"
+                "formContainsErrors" : "フォームには検証エラーが含まれています。",
+                "atLeastOneCapitalLetter" : "少なくとも大文字が 1 文字以上必要です。",
+                "atLeastOneNumber" : "少なくとも数字が 1 つ以上必要です。",
+                "atLeast8Characters" : "少なくとも 8 文字以上必要です。",
+                "cannotMatchLogin" : "ログインが一致しません。",
+                "confirmationMatchesPassword" : "新規パスワードとパスワード(確認)が一致。",
+                "usernameExists" : "ユーザー名がすでに存在します。",
+                "emailAddressAlreadyExists" : "電子メールアドレスがすでに存在します。",
+                "onlyAlphabeticCharacters" : "英字のみです。",
+                "onlyNumbersAndSpecialCharacters" : "数字と特殊文字のみです。",
+                "cannotMatchOldPassword" : "古いパスワードと一致しません。",
+                "minimum4Characters" : "最小 4 文字です。",
+                "acceptanceRequiredForRegistration" : "登録には受理が必要です。",
+                "incorrectPassword" : "パスワードが正しくありません。",
+                "incorrectSecurityAnswer" : "応答が無効です。",
+                "required" : "必須です。",
+                "emailNotValid" : "電子メールアドレスが無効です。",
+                "emailExists" : "電子メールアドレスがすでに存在します。",
+                "shouldBeLong" : "long 値である必要があります。",
+                "wrongDateFormat" : "フォーマットが不正です。"
             }
         },
         "grid": {
@@ -395,94 +396,94 @@
             "emailValidation" : "Enter your email address to proceed. We will send you an email with a link that will allow you to continue registering.",
             "send": "Send",
             "validateCode" : "An email has been sent to the address you entered. Click the link in that email to proceed.",
-            "user" : "User",
-            "login" : "Log in",
-            "loginConfirm" : "You have already logged in. Do you want to log out and then login to a different organization?",
+            "user" : "ユーザー",
+            "login" : "ログイン",
+            "loginConfirm" : "すでにログインしています。ログアウトし、別の組織にログインしますか？",
             "selfService" : "Self-service",
             "administration": "Administration",
             "basicInfo" : "Basic Info",
-            "myProfile" : "My Profile",
-            "userProfile" : "User profile",
-            "profile": "Profile",
-            "username" : "Username",
-            "emailAddress" : "Email address",
-            "givenName" : "First Name",
-            "sn" : "Last Name",
-            "changePassword" : "Change password",
-            "forgotPassword" : "Forgot password?",
-            "accountStatus" : "Account status",
-            "active" : "Active",
-            "inactive" : "Inactive",
-            "address" : "Address",
-            "address1" : "Address 1",
-            "address2" : "Address 2",
-            "country" : "Country",
-            "city" : "City",
-            "role" : "Admin Role",
-            "stateProvince" : "State/Province",
-            "phoneNumber" : "Phone number",
-            "postalCode" : "Postal Code",
-            "lastPasswordSet" : "Last password set",
-            "siteImage" : "Site Image",
-            "sitePhrase" : "Site Phrase",
-            "securityQuestion" : "Security question",
-            "securityAnswer" : "Security answer",
-            "adaptiveAuthMethod" : "Adaptive auth method",
+            "myProfile" : "マイプロファイル",
+            "userProfile" : "ユーザープロファイル",
+            "profile" : "プロファイル",
+            "username" : "ユーザー名",
+            "emailAddress" : "電子メールアドレス",
+            "givenName" : "名",
+            "sn" : "姓",
+            "changePassword" : "パスワード変更",
+            "forgotPassword" : "パスワードを忘れた場合",
+            "accountStatus" : "アカウントステータス",
+            "active" : "アクティブ",
+            "inactive" : "非アクティブ",
+            "address" : "アドレス",
+            "address1" : "アドレス 1",
+            "address2" : "アドレス 2",
+            "country" : "国",
+            "city" : "市",
+            "role" : "管理者権限",
+            "stateProvince" : "州/郡",
+            "phoneNumber" : "携帯電話",
+            "postalCode" : "郵便番号",
+            "lastPasswordSet" : "最終パスワード更新",
+            "siteImage" : "サイトイメージ",
+            "sitePhrase" : "サイトフレーズ",
+            "securityQuestion" : "秘密の質問",
+            "securityAnswer" : "秘密の質問の回答",
+            "adaptiveAuthMethod" : "アダプティブ認証メソッド",
             "SMS" : "SMS",
             "OAuth" : "OAuth",
-            "createNewAccount" : "Create new account",
-            "password" : "Password",
-            "confirmPassword" : "Confirm password",
-            "newPassword" : "New password",
-            "oldPassword" : "Old password",
-            "currentPassword" : "Current password",
-            "confirmNewPassword" : "Confirm new password",
-            "usersList" : "Users list",
-            "addUsers" : "Add users",
-            "name" : "Name",
-            "status" : "Status",
-            "email" : "Email",
-            "system" : "System",
-            "changePhoto" : "Change photo",
+            "createNewAccount" : "新規アカウント作成",
+            "password" : "パスワード",
+            "confirmPassword" : "パスワード(確認)",
+            "newPassword" : "新規パスワード",
+            "oldPassword" : "旧パスワード",
+            "currentPassword" : "現在のパスワード",
+            "confirmNewPassword" : "新規パスワード(確認)",
+            "usersList" : "ユーザー一覧",
+            "addUsers" : "ユーザー追加",
+            "name" : "名前",
+            "status" : "ステータス",
+            "email" : "電子メール",
+            "system" : "システム",
+            "changePhoto" : "写真を変更",
             "SKYPE" : "SKYPE",
             "googlePlus" : "Google+"
-        },
-        "task" : {
-            "unassigned" : "Unassigned",
-            "assignToMe" : "Assign to me",
-            "claim" : "Claim",
-            "unclaim" : "Unclaim",
-            "approve" : "Approve",
-            "deny" : "Deny",
-            "requeue" : "Requeue",
-            "taskName" : "Task Name",
-            "processName" : "Process Name",
-            "startProcess" : "Start Process",
-            "assignee" : "Assignee",
-            "taskDetails" : "Task Details",
-            "myTasks" : "My tasks",
-            "tasksList" : "Tasks list",
-            "processes" : "Processes"
-        },
-        "application" : {
-            "applicationName" : "Application Name",
-            "requestedBy" : "Requested by",
-            "yourFrequentlyUsedApplications" : "Your frequently used apps",
-            "applicationsYouHaveAdded" : "Apps you've added",
-            "defaultApplications" : "Default apps",
-            "addMoreApplications" : "Add more apps",
-            "allAvailableApps" : "All available apps",
-            "dropApplicationsHere" : "drop apps here"
-        },
-        "notification" : {
-            "notifications" : "Notifications",
-            "deleteThisMessage" : "Delete this message",
-            "type" : "Notification type",
-            "message" : "Message",
+         }, 
+         "task" : {
+            "unassigned" : "未アサイン",
+            "assignToMe" : "私にアサイン",
+            "claim" : "請求",
+            "unclaim" : "未請求",
+            "approve" : "承認",
+            "deny" : "拒否",
+            "requeue" : "再キューイング",
+            "taskName" : "タスク名",
+            "processName" : "プロセス名",
+            "startProcess" : "プロセスの開始",
+            "assignee" : "アサイナー",
+            "taskDetails" : "タスクの詳細",
+            "myTasks" : "マイタスク",
+            "tasksList" : "タスクリスト",
+            "processes" : "プロセス"
+         },
+         "application" : {
+            "applicationName" : "アプリケーション名",
+            "requestedBy" : "による要求",
+            "yourFrequentlyUsedApplications" : "頻繁に使用するアプリケーション",
+            "applicationsYouHaveAdded" : "追加したアプリケーション",
+            "defaultApplications" : "デフォルトアプリケーション",
+            "addMoreApplications" : "さらにアプリケーションを追加",
+            "allAvailableApps" : "使用可能なすべてのアプリケーション",
+            "dropApplicationsHere" : "ここにアプリケーションをドロップ"
+         },
+         "notification" : {
+            "notifications" : "通知",
+            "deleteThisMessage" : "このメッセージを削除",
+            "type" : "通知タイプ",
+            "message" : "メッセージ",
             "types" : {
-                "info" : "Info",
-                "warning" : "Warning",
-                "error" : "Error"
+                "info" : "情報",
+                "warning" : "警告",
+                "error" : "エラー"
             }
         },
         "select": {
@@ -494,35 +495,35 @@
     },
     "openam" : {
         "dashboard": {
-            "title": "Dashboard"
+            "title": "ダッシュボード"
         },
         "apps" : {
-            "header" : "My Applications",
-            "noneFound": "You have no applications assigned to you"
+            "header" : "マイアプリケーション",
+            "noneFound": "あなたに割り当てられたアプリケーションがありません。"
         },
         "trusted" : {
             "devices" : {
-                "header" : "Trusted Devices",
-                "deviceName" : "Name",
-                "lastUsed" : "Last Used",
-                "deleteDevice" : "Delete Device"
+                "header" : "信頼済みのデバイス",
+                "deviceName" : "名前",
+                "lastUsed" : "最終使用",
+                "deleteDevice" : "デバイスの削除"
             }
         },
         "oAuth2" : {
             "tokens" : {
-                "appName" : "Application",
-                "scopes" : "Scopes",
+                "appName" : "アプリケーション",
+                "scopes" : "スコープ",
                 "expires" : "Expires",
-                "deleteToken" : "Revoke Access",
+                "deleteToken" : "アクセスの取り消し",
                 "neverExpires": "Never"
             }
         },
         "authentication": {
             "input": {
-                "name": "Username",
-                "password": "Password"
+                "name": "ユーザー名",
+                "password": "パスワード"
             },
-            "unavailable": "Unable to login to OpenAM"
+            "unavailable": "OpenAM にログインできません。"
         },
         "deviceManagement": {
             "header": "Authentication Devices",
