@@ -6,11 +6,11 @@
         }
     },
     "form": {
-        "description": "This application is requesting the following private information:",
-        "noScopes": "This application is requesting access to your account",
-        "signedInAs": "You are signed in as:",
-        "save": "Save Consent",
-        "allow": "Allow",
-        "deny": "Deny"
+        "description": "このアプリケーションは、以下の個人情報を要求しています:",
+        "noScopes": "このアプリケーションは、あなたのアカウントへのアクセスを要求しています",
+        "signedInAs": "次のユーザーでログインしています:",
+        "save": "同意を保存",
+        "allow": "許可",
+        "deny": "拒否"
     }
 }
