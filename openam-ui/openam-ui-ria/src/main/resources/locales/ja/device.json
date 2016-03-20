@@ -7,9 +7,9 @@
         }
     },
     "form": {
-        "code": "Enter your code here",
-        "description": "Enter the code:",
-        "submit": "Submit"
+        "code": "ここにコードを入力してください",
+        "description": "コードを入力してください:",
+        "submit": "送信"
     },
-    "not_found": "The code you entered cannot be found"
+    "not_found": "入力したコードが見つかりません"
 }
