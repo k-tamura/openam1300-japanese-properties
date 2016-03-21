@@ -383,25 +383,25 @@
                 "answerQuestions": "ユーザー名を取得するには、以下のセキュリティの質問に答えてください。"
             },
             "kba" : {
-                "description": "Select __numberOfQuestions__ or more security questions below. These questions will help us verify your identity if you forget your password.",
-                "provideAnother": "Add a question",
-                "selectQuestion": "Select a security question",
-                "provideYourOwn": "Provide your own",
-                "customQuestion": "Custom Security Question",
-                "answer": "Security Answer",
-                "securityQuestions": "Security Questions"
+                "description": "次の __numberOfQuestions__ 以上のセキュリティの質問を選択します。パスワードを忘れてしまった場合、これらの質問はあなたの身元を確認するのに役立ちます。",
+                "provideAnother": "質問を追加",
+                "selectQuestion": "セキュリティの質問を選択",
+                "provideYourOwn": "あなた自身の提供",
+                "customQuestion": "カスタムのセキュリティの質問",
+                "answer": "セキュリティの回答",
+                "securityQuestions": "セキュリティの質問"
             },
-            "returnToLoginPage": "Return to Login Page",
-            "userIdValidation" : "Enter the username or email address associated with your account. We will send you an email with a link that will allow you to reset your password.",
-            "emailValidation" : "Enter your email address to proceed. We will send you an email with a link that will allow you to continue registering.",
-            "send": "Send",
-            "validateCode" : "An email has been sent to the address you entered. Click the link in that email to proceed.",
+            "returnToLoginPage": "ログインページに戻ります",
+            "userIdValidation" : "アカウントに関連付けられているユーザー名または電子メールアドレスを入力してください。パスワードをリセットすることができるリンクを記載したメールを送信します。",
+            "emailValidation" : "続行するには、メールアドレスを入力します。登録を継続するためのリンクを記載したメールを送信します。",
+            "send": "送信",
+            "validateCode" : "入力したアドレスに電子メールが送信されました。続行するためには、そのメール内のリンクをクリックしてください。",
             "user" : "ユーザー",
             "login" : "ログイン",
             "loginConfirm" : "すでにログインしています。ログアウトし、別の組織にログインしますか？",
-            "selfService" : "Self-service",
-            "administration": "Administration",
-            "basicInfo" : "Basic Info",
+            "selfService" : "セルフサービス",
+            "administration": "管理",
+            "basicInfo" : "基本情報",
             "myProfile" : "マイプロファイル",
             "userProfile" : "ユーザープロファイル",
             "profile" : "プロファイル",
@@ -487,10 +487,10 @@
             }
         },
         "select": {
-            "allSelected": "All selected",
-            "noneSelected": "None selected",
-            "nSelected": "selected",
-            "selectAll": "Select all"
+            "allSelected": "すべて選択",
+            "noneSelected": "選択されていません",
+            "nSelected": "選択されています,
+            "selectAll": "すべて選択"
         }
     },
     "openam" : {
