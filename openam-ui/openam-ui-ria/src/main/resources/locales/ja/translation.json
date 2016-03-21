@@ -77,7 +77,7 @@
                     "policiesUploadFailed": "ポリシーのアップロードに失敗しました。",
                     "importFailed": "インポートに失敗しました: __applicationName__ レルム内にポリシーセットが見つかりません。",
                     "error": {
-                        "cantStartWithHash": "LDAPエンティティは # で始めることはできません。",
+                        "cantStartWithHash": "LDAP エンティティは # で始めることはできません。",
                         "noName": "名前は必須です。",
                         "noResourceTypes": "1つ以上のリソースタイプを選択してください。",
                         "noResources": "1つ以上のリソースを選択してください。",
@@ -586,30 +586,30 @@
                 }
             },
             "sharedWithMe": {
-                "title": "Shared with me",
-                "description": "Resources that have been shared with you."
+                "title": "私との共有",
+                "description": "あなたと共有しているリソース。"
             },
             "starred": {
-                "title": "Starred",
-                "description": "Your favorite resources."
+                "title": "共有済み",
+                "description": "お気に入りのリソース。"
             },
             "myLabels": {
-                "title": "My Labels",
-                "description": "Resources with this label applied to them.",
+                "title": "私のラベル",
+                "description": "このラベルが付いたリソースは、それらに適用されます。",
                 "deleteLabel": {
-                    "button": "Delete Label",
+                    "button": "ラベルの削除",
                     "dialog": {
-                        "title": "Delete label?",
-                        "message": "Are you sure you want to delete this label? Deleting a resource label does not delete the resources themselves."
+                        "title": "ラベルを削除しますか",
+                        "message": "このラベルを削除してもよろしいですか？リソースのラベルを削除してもリソース自体は削除されません。"
                     },
                     "messages": {
-                        "success" : "Label successfully deleted",
-                        "fail" : "We have been unable delete the label. Please contact your Administrator"
+                        "success" : "ラベルが正常に削除されました。",
+                        "fail" : "ラベルを削除することができませんでした。管理者に連絡してください。"
                     }
                 },
                 "noResources": {
-                    "headline": "Nothing here!",
-                    "text": "There are no resources associated with this label."
+                    "headline": "リソースがありません!",
+                    "text": "このラベルに関連付けられているリソースがありません。"
                 }
             },
             "show": {
