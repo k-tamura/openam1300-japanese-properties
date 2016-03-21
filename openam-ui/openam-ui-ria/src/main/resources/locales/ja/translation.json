@@ -59,7 +59,7 @@
                 "completedTask" : "タスクが完了しました。",
                 "claimedTask" : "タスクが請求されています。",
                 "unclaimedTask" : "タスクが請求されていません。",
-                "startedProcess" : "プロセスが開始されました。"
+                "startedProcess" : "プロセスが開始されました。",
                 "scripts": {
                     "error": {
                         "noName": "名前は必須です。",
@@ -110,7 +110,7 @@
                     "allTasks" : "グループのキューにあるタスク",
                     "myTasks" : "マイタスク",
                     "startProcess" : "処理を開始",
-                    "oauthtokens" : "OAuth 2 トークンマネージャー"
+                    "oauthtokens" : "OAuth 2 トークンマネージャー",
                     "uma" : "共有",
                     "umaLinks": {
                         "history" : "履歴",
@@ -135,17 +135,17 @@
                 "noAccountQuestion" : "アカウントを持っていないですか？",
                 "registerAccount" : "アカウントを登録してください。",
                 "problemLoggingQuestion" : "ログインのトラブルがありますか？",
-                "socialAuthentication" : "Or login with:",
+                "socialAuthentication" : "または次でログイン:",
                 "resetPassword" : "パスワードのリセット",
-                "forgotUsername" : "Forgot Username?"
+                "forgotUsername" : "ユーザー名を忘れましたか?"
             },
             "404" : {
                 "pageNotFound" : "ページが見つかりません。",
                 "requestedPageCouldNotBeFound" : "要求されたページが見つかりませんでした。"
             },
             "403" : {
-                "title" : "Forbidden",
-                "description" : "You are not authorized to view this page."
+                "title" : "閲覧禁止",
+                "description" : "このページを表示する権限がありません。"
             },
             "DefaultBaseTemplate" : {
                 "orPhone" : "、または電話"
@@ -181,11 +181,11 @@
                 "loggedOut" : "ログアウトしました。"
             },
             "SessionExpiredTemplate" : {
-                "sessionExpired" : "Your session expired."
+                "sessionExpired" : "セッションの有効期限が切れました。"
             },
             "ChangesPendingTemplate": {
-                "undo": "Undo Changes",
-                "changesPending": "Changes Pending"
+                "undo": "変更を元に戻します",
+                "changesPending": "変更の保留"
             }
         },
         "admin" : {
@@ -226,8 +226,8 @@
             "tokenInfo": "トークン情報"
         },
         "login" : {
-            "newHere": "New here?",
-            "createAccount": "Create an account"
+            "newHere": "新規作成?",
+            "createAccount": "アカウントの作成"
         }
     },
     "common" : {
@@ -266,52 +266,52 @@
             "submit" : "サブミット",
             "actions" : "アクション",
             "complete" : "完了",
-            "revoke" : "Revoke",
-            "done" : "Done",
+            "revoke" : "取り消し",
+            "done" : "終了",
             "ok" : "OK",
-            "moveUp" : "Move Up",
-            "moveDown" : "Move Down",
-            "standard": "Standard",
-            "advanced": "Advanced",
-            "revert": "Revert",
-            "saveChanges": "Save Changes",
-            "edit": "Edit",
-            "key":"Key",
-            "value": "Value",
-            "addKey" : "Add Key",
-            "addValue" : "Add Value",
-            "settings" : "Settings",
-            "working" : "Working...",
-            "more" : "more...",
-            "empty" : "Empty",
-            "help" : "Help",
-            "change": "Change",
-            "upload": "Upload",
-            "download": "Download",
-            "validate": "Validate",
-            "filter": "Filter...",
-            "pass" : "Pass",
-            "fail" : "Fail",
-            "success" : "Success",
-            "allow": "Allow",
-            "deny": "Deny",
+            "moveUp" : "上に移動",
+            "moveDown" : "下に移動",
+            "standard": "標準",
+            "advanced": "詳細設定",
+            "revert": "元に戻す",
+            "saveChanges": "変更の保存",
+            "edit": "編集",
+            "key":"キー",
+            "value": "値",
+            "addKey" : "キーの追加",
+            "addValue" : "値の追加",
+            "settings" : "設定",
+            "working" : "処理中...",
+            "more" : "さらに...",
+            "empty" : "空",
+            "help" : "ヘルプ",
+            "change": "変更",
+            "upload": "アップロード",
+            "download": "ダウンロード",
+            "validate": "検証",
+            "filter": "フィルタ...",
+            "pass" : "パス",
+            "fail" : "失敗",
+            "success" : "成功",
+            "allow": "許可",
+            "deny": "拒否",
             "notApplicable": "n/a",
-            "enable": "Enable",
-            "disable": "Disable",
-            "enabled": "Enabled",
-            "disabled": "Disabled",
-            "activate": "Activate",
-            "deactivate": "Deactivate",
-            "active": "Active",
-            "inactive": "Inactive",
+            "enable": "有効",
+            "disable": "無効",
+            "enabled": "有効",
+            "disabled": "無効",
+            "activate": "アクティブ",
+            "deactivate": "非アクティブ",
+            "active": "アクティブ",
+            "inactive": "非アクティブ",
             "copyright" : "Copyright &copy; 2010-2016 ForgeRock AS. All rights reserved.",
-            "build": "Build",
-            "sessionExpired" : "Session Expired",
-            "enableCookies" : "Cookies must be enabled to login",
-            "deleteSelected" : "Delete Selected",
-            "startTypingToSearch": "Start typing to search",
+            "build": "ビルド",
+            "sessionExpired" : "セッションが有効期限切れ",
+            "enableCookies" : "ログインするためには、cookie を有効にする必要があります",
+            "deleteSelected" : "選択したものを削除します",
+            "startTypingToSearch": "検索する入力を開始",
             "passwordPlaceholder": "••••••••••••",
-            "redirecting": "Redirecting...",
+            "redirecting": "リダイレクトします...",
             "validation" : {
                 "VALID_PHONE_FORMAT": "無効な文字が含まれています。",
                 "VALID_NAME_FORMAT": "無効な文字が含まれています。",
@@ -347,40 +347,40 @@
         },
         "grid": {
             "pagination": {
-                "first": "First",
-                "previous": "Previous",
-                "next": "Next",
-                "last": "Last"
+                "first": "最初へ",
+                "previous": "前へ",
+                "next": "次へ",
+                "last": "最後へ"
             }
         },
         "user" : {
             "userQuery" : {
-                "mainEnterPrompt": "Enter your ",
-                "optionalEnterPrompt": "or your ",
-                "orAllEnterPrompt" : "or all of the following information",
-                "title" : "Enter details to find your account",
-                "any" : "Any of these:"
+                "mainEnterPrompt": "入力してください",
+                "optionalEnterPrompt": "または",
+                "orAllEnterPrompt" : "または以下の情報のすべて",
+                "title" : "あなたのアカウントを検索する詳細を入力してください",
+                "any" : "これらのいずれか:"
             },
             "passwordReset" : {
-                "title": "Reset Your Password",
-                "completed": "Your password has been successfully reset.",
-                "failed": "Unable to reset your password",
-                "tryAgain": "Try Resetting Your Password Again",
-                "answerQuestions": "Answer the security questions below to reset your password."
+                "title": "パスワードをリセット",
+                "completed": "パスワードが正常にリセットされました。",
+                "failed": "パスワードをリセットすることができません。",
+                "tryAgain": "もう一度パスワードをリセットしてください",
+                "answerQuestions": "パスワードをリセットするには、以下のセキュリティに関する質問に回答してください。"
             },
             "selfRegistration" : {
-                "title": "Register Your Account",
-                "completed": "Your account has been successfully registered.",
-                "failed": "Unable to register your account",
-                "tryAgain": "Try Registering Again"
+                "title": "アカウントを登録",
+                "completed": "アカウントが正常に登録されました。",
+                "failed": "アカウントを登録することができません。",
+                "tryAgain": "再度登録してください。"
             },
             "forgotUsername" : {
-                "title" : "Retrieve Your Username",
-                "checkEmail" : "An email containing your username has been sent to your account.",
-                "failed": "Unable to retrieve your username",
-                "found": "Username found:",
-                "tryAgain": "Try Finding Your Username Again",
-                "answerQuestions": "Answer the security questions below to retrieve your username."
+                "title" : "ユーザー名を取得",
+                "checkEmail" : "ユーザー名を含む電子メールがあなたのアカウントに送信されました。",
+                "failed": "ユーザー名を取得できません。",
+                "found": "ユーザー名が見つかりました:",
+                "tryAgain": "再度ユーザー名を検索してみてください",
+                "answerQuestions": "ユーザー名を取得するには、以下のセキュリティの質問に答えてください。"
             },
             "kba" : {
                 "description": "Select __numberOfQuestions__ or more security questions below. These questions will help us verify your identity if you forget your password.",
