@@ -628,18 +628,18 @@
             }
         },
         "history": {
-            "title": "History",
-            "subtitle": "History of events on your resources",
+            "title": "履歴",
+            "subtitle": "リソースのイベントの履歴",
             "grid": {
-                "header": ["User", "Resource", "Action", "When"],
+                "header": ["ユーザー", "リソース", "アクション", "いつ"],
                 "types": {
-                    "authorisation_requested": "Requested authorisation",
-                    "authorisation_request_approved": "Granted authorisation",
-                    "authorisation_request_denied": "Denied authorisation",
-                    "authorisation_granted": "Granted authorisation",
-                    "authorisation_denied": "Denied authorisation",
-                    "policy_created": "Shared",
-                    "policy_updated": "Updated share"
+                    "authorisation_requested": "要求された認可",
+                    "authorisation_request_approved": "付与された認可",
+                    "authorisation_request_denied": "拒否された認可",
+                    "authorisation_granted": "付与された認可",
+                    "authorisation_denied": "拒否された認可",
+                    "policy_created": "共有",
+                    "policy_updated": "更新された共有"
                 }
             }
         },
