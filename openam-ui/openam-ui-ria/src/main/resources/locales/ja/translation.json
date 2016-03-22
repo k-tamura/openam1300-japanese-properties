@@ -694,34 +694,34 @@
         },
         "authentication": {
             "common": {
-                "module": "module",
-                "chain": "chain"
+                "module": "モジュール",
+                "chain": "連鎖"
             },
             "settings": {
-                "title": "Authentication Settings"
+                "title": "認証設定"
             },
             "modules": {
-                "title" : "Authentication Modules",
-                "description" : "OpenAM uses authentication modules to identify the user. Normally authentication modules are associated with an authentication chain. Each realm has a default authentication chain that will be used to authenticate users. This section is used to add, configure or remove authentication module available for authentication into this realm.",
-                "addModuleDialogTitle" : "Create new Module",
-                "addModuleDialogError": "Authentication instance already exists.",
-                "selectModuleType" : "Select Module type   ",
-                "addModule" : "Add Module",
-                "moduleName" : "Module Name",
-                "moduleType" : "Type",
-                "chain" : "Chain",
+                "title" : "認証モジュール",
+                "description" : "OpenAMは、ユーザーを識別するために認証モジュールを使用します。通常、認証モジュールは認証連鎖と関連付けられています。各レルムには、ユーザーを認証するために使用されるデフォルトの認証連鎖があります。このセクションは、レルムへの認証に利用可能な認証モジュールを追加、設定、削除するために使用されます。",
+                "addModuleDialogTitle" : "新規モジュールの作成",
+                "addModuleDialogError": "認証インスタンスがすでに存在しています。",
+                "selectModuleType" : "モジュールタイプの選択   ",
+                "addModule" : "モジュールの追加",
+                "moduleName" : "モジュール名",
+                "moduleType" : "タイプ",
+                "chain" : "連鎖",
                 "inUse": {
-                    "title": "Edit module",
-                    "message": "The <code>__moduleName__</code> module is being used by the following Authentication Chain(s) <code>__usedChains__</code>. Editing this module may change their behaviour. <br><br>Are you sure you want to continue?"
+                    "title": "モジュールの編集",
+                    "message": "<code>__moduleName__</code> モジュールは、認証連鎖 <code>__usedChains__</code> で使用されています。このモジュールを編集すると、その動作が変更することがあります。<br><br>継続してもよろしいですか?"
                 },
-                "moduleNameValidationError" : "Spaces are not allowed in a module's name",
-                "confirmDeleteSelected": "Are you sure you want to delete the selected module?",
-                "confirmDeleteSelected_plural": "Are you sure you want to delete the selected modules?"
+                "moduleNameValidationError" : "モジュールの名前に空白は許可されていません。",
+                "confirmDeleteSelected": "選択したモジュールを削除してもよろしいですか?",
+                "confirmDeleteSelected_plural": "選択したモジュールを削除してもよろしいですか?"
             },
             "chains": {
-                "title" : "Authentication Chains",
-                "action" : "Add Chain",
-                "chainName" : "Chain Name",
+                "title" : "認証連鎖",
+                "action" : "認証連鎖の追加",
+                "chainName" : "認証連鎖名",
                 "description" : "Use authentication chains to define the steps a subject takes to authenticate. Authentication chains consist of a series of one or more authentication modules, with credentials being passed down the chain to each module instance.",
                 "defaultAdminAuthConfiguration" : "Default Administrator Authentication Chain",
                 "defaultOrgAuthConfiguration" : "Default Organization Authentication Chain",
