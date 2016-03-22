@@ -613,18 +613,18 @@
                 }
             },
             "show": {
-                "subtitle": "Users allowed to access this resource and their permissions",
-                "grid": ["User", "Last accessed", "Permissions"],
-                "share": "Share",
-                "editLabels" : "Edit Labels",
-                "revoke": "Unshare Resource",
-                "revokeAllMessage": "Are you sure you want to revoke all access?",
-                "resource" : "Resource",
-                "revokeAllPoliciesSuccess" : "All access successfully revoked for your resource",
-                "revokeAllPoliciesFail" : "We have been unable revoke all access to your resource. Please contact your Administrator",
-                "revokePolicySuccess" : "Access successfully revoked for your resource",
-                "revokePolicyFail" : "We have been unable revoke access to your resource. Please contact your Administrator",
-                "revokeAllResourcesMessage": "Are you sure you want to revoke all access? Selecting OK will not remove your resources, but will remove all the shares within your resources."
+                "subtitle": "このリソースとその権限へのアクセスを許可されているユーザー",
+                "grid": ["ユーザー", "最後にアクセス", "パーミッション"],
+                "share": "共有",
+                "editLabels" : "ラベルの編集",
+                "revoke": "リソースの共有を解除",
+                "revokeAllMessage": "すべてのアクセスを無効にしてもよろしいですか?",
+                "resource" : "リソース",
+                "revokeAllPoliciesSuccess" : "リソースに対するすべてのアクセスは正常に失効しました。",
+                "revokeAllPoliciesFail" : "リソースに対するすべてのアクセスを取り消すことができませんでした。管理者に連絡してください。",
+                "revokePolicySuccess" : "リソースに対するアクセスは正常に失効しました。",
+                "revokePolicyFail" : "リソースに対するアクセスを失効できませんでした。管理者に連絡してください。",
+                "revokeAllResourcesMessage": "すべてのアクセスを無効にしてもよろしいですか？OKを選択してもリソースは削除されませんが、リソース内のすべての共有が削除されます。"
             }
         },
         "history": {
@@ -785,17 +785,17 @@
                     }
                 ],
                 "alerts" : {
-                    "reqdFailSuffPass" : "Warning: Passing a SUFFICIENT module after the failing a REQUIRED module will continue through the chain and will not exit at that point. Consider using REQUISITE instead of REQUIRED."
+                    "reqdFailSuffPass" : "警告：「必須」のモジュールが失敗した後に「十分」のモジュールが成功すると、認証連鎖は継続し、その時点で終了しません。「必須」の代わりに「必要」を使用することを検討してください。"
                 },
-                "callToAction" : "You must add at least one authentication module",
-                "lastCriteria" : "Will advance to success or failure URL",
-                "deletedChain": "Chain deleted successfully",
+                "callToAction" : "少なくとも一つの認証モジュールを追加する必要があります。",
+                "lastCriteria" : "成功または失敗 URL に進みます。",
+                "deletedChain": "認証連鎖は正常に削除されました。",
                 "deleteBtnTooltip": {
-                    "defaultAdminAuthChain": "This is the default authentication chain for Administrators.",
-                    "defaultOrgAuthChain": "This is the default authentication chain for Organizations.",
-                    "defaultAdminOrgAuthChain": "This is the default authentication chain for Administrators and Organizations."
+                    "defaultAdminAuthChain": "これは管理者のデフォルトの認証連鎖です。",
+                    "defaultOrgAuthChain": "これは組織のデフォルトの認証連鎖です。",
+                    "defaultAdminOrgAuthChain": "これは管理者および組織のデフォルトの認証連鎖です。"
                 },
-                "legend" : ["Successful authentication requires:","At least one PASS flag", "No FAIL flags"]
+                "legend" : ["認証が成功する必要があります:","少なくとも1つの成功フラグがあること。", "失敗フラグがないこと。"]
             }
         },
         "dashboard":{
