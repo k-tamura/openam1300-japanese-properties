@@ -722,66 +722,66 @@
                 "title" : "認証連鎖",
                 "action" : "認証連鎖の追加",
                 "chainName" : "認証連鎖名",
-                "description" : "Use authentication chains to define the steps a subject takes to authenticate. Authentication chains consist of a series of one or more authentication modules, with credentials being passed down the chain to each module instance.",
-                "defaultAdminAuthConfiguration" : "Default Administrator Authentication Chain",
-                "defaultOrgAuthConfiguration" : "Default Organization Authentication Chain",
-                "duplicateChain" : "A Chain with the same name already exists",
-                "createNewChain" : "Create new chain",
-                "confirmDeleteSelected": "Are you sure you want to delete the selected chain?",
-                "confirmDeleteSelected_plural": "Are you sure you want to delete the selected chains?"
+                "description" : "対象を認証する手順を定義するために、認証連鎖を使用してください。認証連鎖は連続する1つ以上の認証モジュールで構成され、資格情報は認証連鎖の次のモジュールインスタンスに受け継がれます。",
+                "defaultAdminAuthConfiguration" : "デフォルトの管理者の認証連鎖",
+                "defaultOrgAuthConfiguration" : "デフォルトの組織の認証連鎖",
+                "duplicateChain" : "同じ名前の認証連鎖がすでに存在します。",
+                "createNewChain" : "新規認証連鎖の作成",
+                "confirmDeleteSelected": "選択した認証連鎖を削除してもよろしいですか?",
+                "confirmDeleteSelected_plural": "選択した認証連鎖を削除してもよろしいですか?"
             },
             "editChains": {
-                "options" : "Options",
-                "noOptions" : "No Options",
-                "selectCriteria" : "Select Criteria",
-                "addValue" : "Add Value",
-                "selectModule" : "Select Module",
-                "chains" : "Chains",
-                "editChain" : "Edit Chain",
-                "newModule" : "New Module",
-                "addModule": "Add Module",
-                "editModule" : "Edit Module",
-                "gotoNextModule" : "Pass through to next module",
-                "gotoSuccessUrl" : "Go to Successful Login URL",
-                "gotoFailUrl" : "Go to Failed Login URL",
-                "redirectUrls" : "Redirect URLS",
-                "redirectUrlsHelp" : "Specify the URL to which the subject is redirected. You can specify separate URLs for authenticating successfully and when authentication fails.",
-                "successUrl" : "Successful Login URL",
-                "failUrl" : "Failed Login URL",
-                "addUrl" : "Add URL",
-                "dropHere" : "Drop here",
-                "moduleHelp" : "Add authentication modules to build a process in which a user must pass credentials to all module instances.",
+                "options" : "オプション",
+                "noOptions" : "オプション無し",
+                "selectCriteria" : "基準の選択",
+                "addValue" : "値の追加",
+                "selectModule" : "モジュールの選択",
+                "chains" : "認証連鎖",
+                "editChain" : "認証連鎖の編集",
+                "newModule" : "新規モジュール",
+                "addModule": "モジュールの追加",
+                "editModule" : "モジュールの編集",
+                "gotoNextModule" : "次のモジュールへと通過",
+                "gotoSuccessUrl" : "ログイン成功 URL に転送",
+                "gotoFailUrl" : "ログイン失敗 URL に転送",
+                "redirectUrls" : "リダイレクト URL",
+                "redirectUrlsHelp" : "対象がリダイレクトされる URL を指定します。認証に失敗時は、正常に認証したときと異なる URL を指定することができます。",
+                "successUrl" : "ログイン成功 URL",
+                "failUrl" : "ログイン失敗 URL",
+                "addUrl" : "URL の追加",
+                "dropHere" : "ここにドロップ",
+                "moduleHelp" : "すべてのモジュールインスタンスにユーザーの資格情報を渡すプロセスを構築するように、認証モジュールを追加してください。",
                 "processingClass": {
-                    "title": "Post Authentication Processing Class",
-                    "className": "Class Name",
+                    "title": "ポスト認証プロセスクラス",
+                    "className": "クラス名",
                     "addClassNameDialog": {
-                        "title": "Add new Class Name",
-                        "message": "The new class name <mark>__newClassName__</mark> for Post Authentication Processing has not been saved. Do you want to save it?"
+                        "title": "新しいクラス名の追加",
+                        "message": "ポスト認証プロセスの新規クラス <mark>__newClassName__</mark> は、保存されていません。保存しますか?"
                     },
-                    "duplicateClass" : "A Class with the same name already exists",
-                    "help" : "Specify the name of a Java class to execute at the end of the authentication process."
+                    "duplicateClass" : "同じ名前のクラスがすでに存在します",
+                    "help" : "認証プロセス終了時に実行する Java クラスの名前を指定します。"
                 },
                 "criteria" : [
                     {
-                        "title": "Required",
-                        "passText" : "Pass this module and you will get a pass flag, and continue in the chain.",
-                        "failText" : "Fail this module and you will get a fail flag, and continue in the chain."
+                        "title": "必須",
+                        "passText" : "このモジュールが成功すると成功フラグが立ち、認証連鎖が継続します。",
+                        "failText" : "このモジュールが失敗すると失敗フラグが立ち、認証連鎖が継続します。"
                     },
                     {
-                        "title": "Optional",
-                        "passText" : "Pass this module and you will get a pass flag, and continue in the chain.",
-                        "failText" : "Fail this module and you will continue in the chain."
+                        "title": "任意",
+                        "passText" : "このモジュールが成功すると成功フラグが立ち、認証連鎖が継続します。",
+                        "failText" : "このモジュールが失敗すると認証連鎖が継続します。"
                     },
                     {
-                        "title": "Requisite",
-                        "passText" : "Pass this module and you will get a pass flag, and continue in the chain.",
-                        "failText" : "Fail this module and you will get a fail flag, and exit the chain."
+                        "title": "必要",
+                        "passText" : "このモジュールが成功すると成功フラグが立ち、認証連鎖が継続します。",
+                        "failText" : "このモジュールが失敗すると失敗フラグが立ち、認証連鎖が終了します。"
 
                     },
                     {
-                        "title": "Sufficient",
-                        "passText" : "Pass this module and you will get a pass flag, and exit the chain.",
-                        "failText" : "Fail this module and you will continue in the chain."
+                        "title": "十分",
+                        "passText" : "このモジュールが成功すると成功フラグが立ち、認証連鎖が終了します。",
+                        "failText" : "このモジュールが失敗すると認証連鎖が継続します。"
                     }
                 ],
                 "alerts" : {
