@@ -645,15 +645,15 @@
         },
         "requests": {
             "list": {
-                "title": "Requests",
-                "description": "Pending requests for access to your resources."
+                "title": "リクエスト",
+                "description": "リソースへのアクセスに対するペンディングリクエスト。"
             },
             "show": {
-                "title": "Request",
-                "description": "Pending request for access to your resources."
+                "title": "リクエスト",
+                "description": "リソースへのアクセスに対するペンディングリクエスト。"
             },
             "grid": {
-                "header": ["User", "Resource", "When", "Permissions", "Actions"]
+                "header": ["ユーザー", "リソース", "いつ", "パーミッション", "アクション"]
             }
         }
     },
