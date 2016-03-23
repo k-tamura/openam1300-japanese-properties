@@ -845,80 +845,79 @@
                         "change": "スクリプトタイプの変更",
                         "select": "スクリプトタイプの選択"
                     },
-                    "helper": "To create a new script, first select one of the available script types.",
-                    "warning": "By changing the script type you will lose any unsaved data."
+                    "helper": "新しいスクリプトを作成するには、最初に使用可能なスクリプトタイプのいずれかを選択します。",
+                    "warning": "スクリプトタイプを変更すると、未保存のデータが失われます。"
                 }
             },
             "list": {
-                "title": "Scripts List",
-                "addNew": "New Script",
-                "grid": ["Name", "Script Type", "Language", "Description"],
-                "confirmDeleteText": "Are you sure you want to delete the selected scripts?"
+                "title": "スクリプト一覧",
+                "addNew": "新規スクリプト",
+                "grid": ["名前", "スクリプトタイプ", "言語", "説明"],
+                "confirmDeleteText": "選択したスクリプトを削除してもよろしいですか?"
             }
         },
         "authorization": {
             "common": {
-                "realm": "Realm",
-                "realms": "Realms",
-                "policy": "Policy",
-                "policySet": "Policy Set",
-                "policySets": "Policy Sets",
-                "pattern": "Pattern",
-                "patterns": "Patterns",
-                "responseAttributes": "Response attributes",
-                "subjectAttributes": "Subject attributes",
-                "availablePatterns": "Available patterns",
-                "staticAttributes": "Static attributes",
-                "action": "Action",
-                "actions": "Actions",
-                "resources": "Resources",
-                "subjects": "Subjects",
-                "environments": "Environments",
-                "resourceType": "Resource Type",
-                "resourceTypes": "Resource Types",
-                "defaultState": "Default State",
-
-                "noRealms": "There are no selected realms...",
-                "noActions": "There are no actions...",
-                "noActionsSelected": "There are no selected actions...",
-                "noResources": "There are no selected resources...",
-                "noResourceTypes": "There are no selected resources types...",
-                "noStaticAttributes": "There are no static attributes...",
-                "noSubjectAttributes": "There are no subject attributes...",
-                "noApplications": "There are no selected policy sets...",
-                "noPatterns": "There are no patterns...",
-                "noResourceTypesAvailable": "There are no available resource types...",
-                "noApplicationsAvailable": "There are no available policy sets...",
-                "noItems": "There are no items ...",
+                "realm": "レルム",
+                "realms": "レルム",
+                "policy": "ポリシー",
+                "policySet": "ポリシーセット",
+                "policySets": "ポリシーセット",
+                "pattern": "パターン",
+                "patterns": "パターン",
+                "responseAttributes": "レスポンス属性",
+                "subjectAttributes": "対象属性",
+                "availablePatterns": "利用可能なパターン",
+                "staticAttributes": "静的属性",
+                "action": "アクション",
+                "actions": "アクション",
+                "resources": "リソース",
+                "subjects": "対象",
+                "environments": "環境",
+                "resourceType": "リソースタイプ",
+                "resourceTypes": "リソースタイプ",
+                "defaultState": "デフォルトの状態",
+                "noRealms": "選択したレルムがありません...",
+                "noActions": "アクションがありません...",
+                "noActionsSelected": "選択されたアクションがありません...",
+                "noResources": "選択したリソースがありません...",
+                "noResourceTypes": "選択されたリソースタイプがありません...",
+                "noStaticAttributes": "静的な属性がありません...",
+                "noSubjectAttributes": "サブジェクト属性がありません...",
+                "noApplications": "選択したポリシーセットがありません...",
+                "noPatterns": "パターンがありません...",
+                "noResourceTypesAvailable": "利用可能なリソースタイプがありません...",
+                "noApplicationsAvailable": "使用可能なポリシーセットがありません...",
+                "noItems": "アイテムがありません...",
 
                 "weekdays": {
                     "Monday": {
-                        "short": "mon",
-                        "full": "Monday"
+                        "short": "月",
+                        "full": "月曜日"
                     },
                     "Tuesday": {
-                        "short": "tue",
-                        "full": "Tuesday"
+                        "short": "火",
+                        "full": "火曜日"
                     },
                     "Wednesday": {
-                        "short": "wed",
-                        "full": "Wednesday"
+                        "short": "水",
+                        "full": "水曜日"
                     },
                     "Thursday": {
-                        "short": "thu",
-                        "full": "Thursday"
+                        "short": "木",
+                        "full": "木曜日"
                     },
                     "Friday": {
-                        "short": "fri",
-                        "full": "Friday"
+                        "short": "金",
+                        "full": "金曜日"
                     },
                     "Saturday": {
-                        "short": "sat",
-                        "full": "Saturday"
+                        "short": "土",
+                        "full": "土曜日"
                     },
                     "Sunday": {
-                        "short": "sun",
-                        "full": "Sunday"
+                        "short": "日",
+                        "full": "日曜日"
                     }
                 }
             },
