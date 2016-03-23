@@ -924,21 +924,21 @@
 
             "policySets":{
                 "edit": {
-                    "new": "New Policy Set",
-                    "policies": "Policies",
-                    "addResourceTypes": "Add Resource Types...",
-                    "selectResourceTypes": "Select the resource types to be available within this policy set.",
+                    "new": "新規ポリシーセット",
+                    "policies": "ポリシー",
+                    "addResourceTypes": "リソースタイプの追加...",
+                    "selectResourceTypes": "このポリシーセット内で使用可能にするリソースタイプを選択します。",
                     "resourceTypes": {
-                        "availableResourceTypes": "Available Resource Types",
-                        "selectedResourceTypes": "Selected Resource Types"
+                        "availableResourceTypes": "利用可能なリソースタイプ",
+                        "selectedResourceTypes": "選択されたリソースタイプ"
                     },
-                    "cannotEditPolicySet": "To edit a policy set first delete all policies that it contains."
+                    "cannotEditPolicySet": "ポリシーセットを編集するためには、それに含まれるすべてのポリシーを削除する必要があります。"
                 },
                 "list": {
-                    "addNew": "New Policy Set",
-                    "importPolicies": "Import Policies",
-                    "exportPolicies": "Export Policies",
-                    "grid": ["Name"]
+                    "addNew": "新規ポリシーセット",
+                    "importPolicies": "インポートポリシー",
+                    "exportPolicies": "エクスポートポリシー",
+                    "grid": ["名前"]
                 }
             },
 
