@@ -659,38 +659,38 @@
     },
     "console": {
         "common": {
-            "topLevelRealm": "Top Level Realm",
-            "realmStatus": "Status",
-            "realmDnsAliases": "Aliases/DNS Aliases",
-            "noResults": "No results to display",
-            "name": "Name",
+            "topLevelRealm": "トップレベルレルム",
+            "realmStatus": "状態",
+            "realmDnsAliases": "エイリアス / DNS エイリアス",
+            "noResults": "表示する結果がありません。",
+            "name": "名前",
             "nav": {
-                "dashboard": "Dashboard",
+                "dashboard": "ダッシュボード",
                 "authn": {
-                    "authn": "Authentication",
-                    "settings": "Settings",
-                    "chains": "Chains",
-                    "modules": "Modules"
+                    "authn": "認証",
+                    "settings": "設定",
+                    "chains": "認証連鎖",
+                    "modules": "モジュール"
                 },
-                "services": "Services",
-                "dataStores": "Data Stores",
-                "privileges": "Privileges",
+                "services": "サービス",
+                "dataStores": "データストア",
+                "privileges": "権限",
                 "authz": {
-                    "authz": "Authorization",
-                    "policies": "Policy Sets",
-                    "resourceTypes": "Resource Types"
+                    "authz": "認可",
+                    "policies": "ポリシーセット",
+                    "resourceTypes": "リソースタイプ"
                 },
-                "subjects": "Subjects",
-                "agents": "Agents",
+                "subjects": "対象",
+                "agents": "エージェント",
                 "sts": "STS",
-                "scripts": "Scripts"
+                "scripts": "スクリプト"
             },
-            "description": "Description",
-            "type": "Type",
-            "editFullScreen": "Edit Fullscreen",
-            "exitFullScreen": "Exit Fullscreen",
-            "confirmDelete": "Confirm delete",
-            "confirmDeleteText": "Are you sure that you want to delete this __type__?"
+            "description": "説明",
+            "type": "タイプ",
+            "editFullScreen": "フルスクリーンで編集",
+            "exitFullScreen": "フルスクリーンを終了",
+            "confirmDelete": "削除の確認",
+            "confirmDeleteText": "この __type__ を削除してよろしいですか?"
         },
         "authentication": {
             "common": {
@@ -799,51 +799,51 @@
             }
         },
         "dashboard":{
-            "realmProperties" : "Properties",
-            "title" : "Realm Overview",
-            "quickStart" : "Common Tasks"
+            "realmProperties" : "プロパティ",
+            "title" : "レルムの概要",
+            "quickStart" : "共通タスク"
         },
         "realms": {
-            "title": "Realms",
-            "description" : "Use realms to organize subjects and configuration data. Within each realm you can configure data stores, administration privileges, authentication chains, authorization policies, and other realm-specific settings.",
-            "newRealm": "New Realm",
-            "header": ["Realm name", "Status", "Path", "Realm/DNS Aliases"],
-            "parentRealmCannotDeleted": "Parent-realms cannot be deleted. Please delete any sub-realms first.",
+            "title": "レルム",
+            "description" : " 対象および設定データを整理するためにレルムを使用します。各レルム内では、データストア、管理権限、認証連鎖、認可ポリシー、およびその他のレルム固有の設定を行うことができます。",
+            "newRealm": "新規レルム",
+            "header": ["レルム名", "状態", "パス", "レルム / DNS エイリアス"],
+            "parentRealmCannotDeleted": "親レルムを削除することはできません。最初にサブレルムを削除してください。",
             "warningDialog": {
-                "title": "Delete \"__realmName__\"?",
-                "activateMessage": "This is an active realm. All configuration data will be lost if deleted. You can set the realm as inactive to prevent login but retain configuration data. <br>Do you want to delete this realm?",
-                "deactivateMessage": "This is an inactive realm. No one can currently login. All configuration data will be lost if deleted. <br>Are you sure you want to delete this realm?"
+                "title": "\"__realmName__\" を削除しますか?",
+                "activateMessage": "これはアクティブなレルムです。削除した場合は、すべての設定データが失われます。設定データを保持してログインを防ぎたい場合は、レルムを非アクティブに設定することができます。<br>このレルムを削除しますか?",
+                "deactivateMessage": "これは、非アクティブなレルムです。現在誰もログインすることはできません。削除した場合は、すべての設定データが失われます。<br>このレルムを削除してもよろしいですか?"
             },
             "createUpdateRealmDialog": {
-                "createTitle": "New Realm",
-                "updateTitle": "__realmPath__ - Properties"
+                "createTitle": "新規レルム",
+                "updateTitle": "__realmPath__ - プロパティ"
             },
             "realmStatusPopover": {
-                "title": "Realm Status",
-                "content": "If the realm is inactive, all OpenAM services will be unavailable for all users in this realm."
+                "title": "レルムの状態",
+                "content": "レルムがアクティブではない場合、すべての OpenAM サービスはこのレルム内のすべてのユーザーに対して使用できなくなります。"
             },
             "realmAliasesPopover": {
-                "title": "Realm/DNS Aliases",
-                "content": "When a request is received by the authentication user interface, OpenAM searches this attribute in all realms to find the matching realm into which the user should be authenticated. <br> OpenAM must only find one matching realm so therefore do not put duplicate entries into multiple realms. <br> Additionally if OpenAM does not find a matching realm, the user is presented with an error screen."
+                "title": "レルム / DNS エイリアス",
+                "content": "認証ユーザーインターフェースがリクエストが受信すると、ユーザーが認証されるべきレルムを見つけるため、OpenAM はすべてのレルムに対してこの属性を検索します。OpenAM は一致するレルムを1つだけを見つける必要しかないので、複数のレルムに重複したエントリを入れてはいけません。さらに OpenAM が一致するレルムを見つけられない場合、ユーザーにはエラー画面が表示されます。"
             },
-            "realmNameValidationError" : "Characters $, &, +, comma, /, :, ;, =, ?, @, space, #, %% are not allowed in a realm's name"
+            "realmNameValidationError" : "レルム名に文字 $, &, +, カンマ, /, :, ;, =, ?, @, スペース, #, %% は許可されていません。"
         },
         "scripts": {
             "edit": {
-                "language": "Language",
-                "script": "Script",
-                "scriptType": "Script Type",
+                "language": "言語",
+                "script": "スクリプト",
+                "scriptType": "スクリプトタイプ",
                 "validation": {
-                    "line": "line",
-                    "column": "column",
-                    "message": "message",
-                    "errors": "This script contains errors:",
-                    "noErrors": "No errors found."
+                    "line": "行",
+                    "column": "列",
+                    "message": "メッセージ",
+                    "errors": "このスクリプトにはエラーがあります:",
+                    "noErrors": "エラーは見つかりませんでした。"
                 },
                 "dialog": {
                     "title": {
-                        "change": "Change Script Type",
-                        "select": "Select Script Type"
+                        "change": "スクリプトタイプの変更",
+                        "select": "スクリプトタイプの選択"
                     },
                     "helper": "To create a new script, first select one of the available script types.",
                     "warning": "By changing the script type you will lose any unsaved data."
