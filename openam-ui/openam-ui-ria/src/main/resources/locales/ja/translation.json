@@ -944,25 +944,25 @@
 
             "policies": {
                 "edit": {
-                    "createNew": "New Policy",
-                    "resourcesDescription": "Specify resources to be managed with this policy.",
-                    "actionsDescription": "Select the actions that the policy applies.",
-                    "subjectConditionsDescription": "Specify the subject conditions to which the policy applies.",
-                    "environmentConditionsDescription": "Specify the environment conditions to which the policy applies.",
-                    "deleteLogical": "Deleting will also remove any child objects",
-                    "addLogical": "Add a Logical Operator",
-                    "selectResourceTypeHelper": "Select the type of resource for which this policy will manage access.",
-                    "selectResourceType": "Select a resource type...",
-                    "selectResourcePattern": "Select resource pattern...",
-                    "selectAction": "Select an action...",
-                    "addAction": "Add action",
-                    "addNewAction": "Add new action",
-                    "availableActions": "Available Resource Type Actions",
-                    "selectedActions": "Selected Actions",
-                    "subjectAttributesPlaceholder": "Select or search for subject attributes",
-                    "addEnvironmentCondition": "Add an Environment Condition",
-                    "addSubjectCondition": "Add a Subject Condition",
-                    "canAcceptOneChild": "The \"Not...\" logical operator can only accept one child",
+                    "createNew": "新規ポリシー",
+                    "resourcesDescription": "このポリシーで管理されるリソースを指定してください。",
+                    "actionsDescription": "ポリシーを適用するアクションを選択します。",
+                    "subjectConditionsDescription": "ポリシーを適用する対象の条件を指定します。",
+                    "environmentConditionsDescription": "ポリシーを適用する環境条件を指定します。",
+                    "deleteLogical": "削除により任意の子オブジェクトも削除されます。",
+                    "addLogical": "論理演算子を追加します。",
+                    "selectResourceTypeHelper": "このポリシーがアクセスを管理する対象のリソースの種類を選択します。",
+                    "selectResourceType": "リソースタイプの選択...",
+                    "selectResourcePattern": "リソースパターンの選択...",
+                    "selectAction": "アクションの選択...",
+                    "addAction": "アクションの追加",
+                    "addNewAction": "新規アクションの追加",
+                    "availableActions": "利用可能なリソースタイプのアクション",
+                    "selectedActions": "選択されたアクション",
+                    "subjectAttributesPlaceholder": "対象の属性を選択または検索する",
+                    "addEnvironmentCondition": "環境条件の追加",
+                    "addSubjectCondition": "対象条件の追加",
+                    "canAcceptOneChild": "\"Not...\" 論理演算子は、一つの子要素だけを受け入れることができます。",
 
                     "operators": {
                         "NOT": "Not...",
@@ -972,98 +972,98 @@
 
                     "subjectTypes": {
                         "AuthenticatedUsers": {
-                            "title": "Authenticated Users",
+                            "title": "認証済みユーザー",
                             "props": {}
                         },
                         "Identity": {
-                            "title": "Users & Groups",
+                            "title": "ユーザーとグループ",
                             "props": {
-                                "subjectValues": "Subject Values",
-                                "users": "User Subjects",
-                                "groups": "Group Subjects"
+                                "subjectValues": "対象の値",
+                                "users": "ユーザー対象",
+                                "groups": "グループ対象"
                             },
-                            "placeholder": "Search for subjects"
+                            "placeholder": "対象を検索"
                         },
                         "JwtClaim": {
-                            "title": "OpenID Connect/JWT Claim",
+                            "title": "OpenID Connect/JWT クレーム",
                             "props": {
-                                "claimName": "Claim Name",
-                                "claimValue": "Claim Value"
+                                "claimName": "クレーム名",
+                                "claimValue": "クレーム値"
                             }
                         },
                         "NONE": {
-                            "title": "Never Match",
+                            "title": "ネバーマッチ",
                             "props": {}
                         }
                     },
 
                     "conditionTypes": {
                         "AMIdentityMembership": {
-                            "title": "Identity Membership",
+                            "title": "アイデンティティメンバーシップ",
                             "props": {
-                                "amIdentityName": "AM Identity Name"
+                                "amIdentityName": "AM アイデンティティ名"
                             }
                         },
                         "AuthLevel": {
-                            "title": "Authentication Level (greater than or equal to)",
+                            "title": "認証レベル (以上)",
                             "props": {
-                                "authLevel": "Authentication Level"
+                                "authLevel": "認証レベル"
                             }
                         },
                         "AuthScheme": {
-                            "title": "Authentication by Module Instance",
+                            "title": "モジュールインスタンスによる認証",
                             "props": {
-                                "authScheme": "Authentication Scheme",
-                                "applicationIdleTimeout": "Application Idle Timeout Scheme",
-                                "applicationName": "Application Name"
+                                "authScheme": "認証スキーム",
+                                "applicationIdleTimeout": "アプリケーションアイドルタイムアウトスキーム",
+                                "applicationName": "アプリケーション名"
                             }
                         },
                         "AuthenticateToRealm": {
-                            "title": "Authentication to a Realm",
+                            "title": "レルムへの認証",
                             "props": {
-                                "authenticateToRealm": "Authenticate to a Realm"
+                                "authenticateToRealm": "レルムへの認証"
                             }
                         },
                         "AuthenticateToService": {
-                            "title": "Authentication by Module Chain",
+                            "title": "モジュール連鎖による認証",
                             "props": {
-                                "authenticateToService": "Authenticate To Service"
+                                "authenticateToService": "サービスへの認証"
                             }
                         },
                         "IPv4": {
-                            "title": "IPv4 Address/DNS Name",
+                            "title": "IPv4 アドレス / DNS 名",
                             "props": {
-                                "ipRange": "IP Range",
-                                "dnsName": "DNS Name",
-                                "startIp": "Start IP",
-                                "endIp": "End IP"
+                                "ipRange": "IP レンジ",
+                                "dnsName": "DNS 名",
+                                "startIp": "開始 IP",
+                                "endIp": "終了 IP"
                             }
                         },
                         "IPv6": {
-                            "title": "IPv6 Address/DNS Name",
+                            "title": "IPv6 アドレス / DNS ",
                             "props": {
-                                "ipRange": "IP Range",
-                                "dnsName": "DNS Name",
-                                "startIp": "Start IP",
-                                "endIp": "End IP"
+                                "ipRange": "IP レンジ",
+                                "dnsName": "DNS 名",
+                                "startIp": "開始 IP",
+                                "endIp": "終了 IP"
                             }
                         },
                         "LDAPFilter": {
-                            "title": "LDAP Filter Condition",
+                            "title": "LDAP フィルタ条件",
                             "props": {
-                                "ldapFilter": "LDAP Filter"
+                                "ldapFilter": "LDAP フィルタ"
                             }
                         },
                         "LEAuthLevel": {
-                            "title": "Authentication Level (less than or equal to)",
+                            "title": "認証レベル (以下)",
                             "props": {
-                                "authLevel": "Authentication Level"
+                                "authLevel": "認証レベル"
                             }
                         },
                         "OAuth2Scope": {
-                            "title": "OAuth2 Scope",
+                            "title": "OAuth2 スコープ",
                             "props": {
-                                "requiredScopes": "Scopes"
+                                "requiredScopes": "スコープ"
                             }
                         },
                         "ResourceEnvIP": {
