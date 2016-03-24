@@ -1067,84 +1067,84 @@
                             }
                         },
                         "ResourceEnvIP": {
-                            "title": "Resource/Environment/IP Address",
+                            "title": "リソース / 環境 / IP アドレス",
                             "props": {
-                                "resourceEnvIPConditionValue": "Resource/Environment/IP Address"
+                                "resourceEnvIPConditionValue": "リソース / 環境 / IP アドレス"
                             }
                         },
                         "Session": {
-                            "title": "Active Session Time",
+                            "title": "アクティブセッション時間",
                             "props": {
-                                "maxSessionTime": "Max Session Time",
-                                "terminateSession": "Terminate Session"
+                                "maxSessionTime": "最大セッション時間",
+                                "terminateSession": "セッションの終了"
                             }
                         },
                         "SessionProperty": {
-                            "title": "Current Session Properties",
+                            "title": "現在のセッションプロパティ",
                             "props": {
-                                "ignoreValueCase": "Ignore Value Case",
-                                "properties": "Properties"
+                                "ignoreValueCase": "大文字小文字を区別しない",
+                                "properties": "プロパティ"
                             }
                         },
                         "SimpleTime": {
-                            "title": "Time (day, date, time, and timezone)",
+                            "title": "時間 (曜日、日付、時刻、タイムゾーン)",
                             "props": {
-                                "startTime": "Start Time",
-                                "endTime": "End Time",
-                                "startDay": "Start Day",
-                                "endDay": "End Day",
-                                "startDate": "Start Date",
-                                "endDate": "End Date",
-                                "enforcementTimeZone": "Time Zone",
-                                "enterTimeZone": "Enter Time Zone"
+                                "startTime": "開始時刻",
+                                "endTime": "終了時刻",
+                                "startDay": "開始曜日",
+                                "endDay": "終了曜日",
+                                "startDate": "開始日付",
+                                "endDate": "終了日付",
+                                "enforcementTimeZone": "タイムゾーン",
+                                "enterTimeZone": "タイムゾーンの入力"
                             },
-                            "helperTitle": "Time condition",
-                            "helperContent": "Must contain one or more of the following values: Time (Start and End), Day (Start and End), Date (Start and End) and/or Time Zone."
+                            "helperTitle": "時間条件",
+                            "helperContent": "次の1つ以上の値を含める必要があります。: 時刻(開始と終了)、曜日(開始と終了)、日付(開始と終了)、および/またはタイムゾーン。"
                         },
                         "Script": {
-                            "title": "Script",
+                            "title": "スクリプト",
                             "props": {
-                                "scriptId": "Script Name"
+                                "scriptId": "スクリプト名"
                             },
-                            "placeholder": "Select from scripts"
+                            "placeholder": "スクリプトから選択"
                         },
-                        "ipHelperTitle": "IP Condition",
-                        "ipHelperContent": "Enter at least one of Start IP, End IP or DNS Name. To match a single IP, enter it in either Start IP or End IP. Start IP must be less than or equal to End IP. DNS Name is an explicit match, or you can use a wildcard in the lowest sub-domain.",
-                        "legacyFormat": "This condition is in a legacy format, and should be replaced.",
-                        "nothingSelected": "Nothing selected",
+                        "ipHelperTitle": "IP 条件",
+                        "ipHelperContent": "開始 IP、終了 IP またはDNS名の少なくとも一つを入力してください。単一の IP アドレスと一致させるには、開始 IP または終了 IP のどちらかに入力します。開始 IP は、終了 IP 以下の値でなければなりません。DNS名は、明示的な一致かまたは最も低いサブドメインのワイルドカードを使用することができます。",
+                        "legacyFormat": "この条件は従来の形式であり、置換する必要があります。",
+                        "nothingSelected": "何も選択されていません",
                         "attributes": {
-                            "object": "key:value[,value2,...]"
+                            "object": "キー:値[,値2,...]"
                         }
                     }
                 },
                 "list": {
-                    "grid": ["Name", "Status"],
-                    "addNew": "Add a New Policy",
-                    "description": "Create, edit or delete authorization policies that apply to this policy set.",
-                    "noPolicies": "You haven't added any policies to this set yet."
+                    "grid": ["名前", "状態"],
+                    "addNew": "新しいポリシーの追加",
+                    "description": "このポリシーセットに適用される認可ポリシーを作成、編集、削除します。",
+                    "noPolicies": "このポリシーセットにポリシーを追加していません。"
                 }
             },
 
             "resourceTypes": {
                 "list": {
-                    "add": "New Resource Type",
-                    "title": "Resource Types",
-                    "grid": ["Name"]
+                    "add": "新規リソースタイプ",
+                    "title": "リソースタイプ",
+                    "grid": ["名前"]
                 },
                 "edit": {
-                    "resourceType": "Resource Type",
-                    "newResourceType" : "New Resource Type",
-                    "createResourceType" : "Create Resource Type",
-                    "actionsDescription" : "Define the actions that policies using this resource type can allow or deny.",
-                    "specifyActions" : "Specify Actions",
-                    "addAction": "Add Action",
-                    "addNewActionPlaceholder": "Add a new action...",
-                    "patternsDescription" : "Define resource patterns that policies using this resource type can expand upon.",
-                    "specifyPatterns" : "Specify Patterns",
-                    "addPattern": "Add Pattern",
-                    "addNewPatternPlaceholder": "Add a new pattern...",
-                    "noResourceTypesMessage" : "You must add a Resource Type to create a Policy Set.",
-                    "addNewResourceType" : "Add a Resource Type"
+                    "resourceType": "リソースタイプ",
+                    "newResourceType" : "新規リソースタイプ",
+                    "createResourceType" : "リソースタイプの作成",
+                    "actionsDescription" : "このリソースタイプを使用するポリシーが許可または拒否することができるアクションを定義します。",
+                    "specifyActions" : "アクションの指定",
+                    "addAction": "アクションの追加",
+                    "addNewActionPlaceholder": "新しいアクションの追加...",
+                    "patternsDescription" : "このリソースタイプを使用するポリシーを上に展開することができるリソースパターンを定義します。",
+                    "specifyPatterns" : "パターンの指定",
+                    "addPattern": "パターンの追加",
+                    "addNewPatternPlaceholder": "新しいパターンの追加...",
+                    "noResourceTypesMessage" : "ポリシーセットを作成するには、リソースタイプを追加する必要があります。",
+                    "addNewResourceType" : "リソースタイプの追加"
                 }
             }
         }
