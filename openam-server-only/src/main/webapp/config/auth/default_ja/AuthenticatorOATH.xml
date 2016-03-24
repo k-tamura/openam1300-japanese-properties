@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  The contents of this file are subject to the terms of the Common Development and
+  Distribution License (the License). You may not use this file except in compliance with the
+  License.
+
+  You can obtain a copy of the License at legal/CDDLv1.0.txt. See the License for the
+  specific language governing permission and limitations under the License.
+
+  When distributing Covered Software, include this CDDL Header Notice in each file and include
+  the License file at legal/CDDLv1.0.txt. If applicable, add the following below the CDDL
+  Header, with the fields enclosed by brackets [] replaced by your own identifying
+  information: "Portions copyright [year] [name of copyright owner]".
+
+  Copyright 2012-2015 ForgeRock AS.
+  Portions Copyright 2016 Nomura Research Institute, Ltd.
+ -->
+
+<!DOCTYPE ModuleProperties PUBLIC "=//iPlanet//Authentication Module Properties XML Interface 1.0 DTD//EN"
+        "jar://com/sun/identity/authentication/Auth_Module_Properties.dtd">
+
+<ModuleProperties moduleName="AuthenticatorOATH" version="1.0">
+    <!-- For determining which we are -->
+    <Callbacks length="0" order="1" timeout="120" header="ForgeRock オーセンティケータ (OATH)">
+    </Callbacks>
+    <!-- For when we're optional and device isn't registered -->
+    <Callbacks length="1" order="2" timeout="120" header="ForgeRock オーセンティケータ (OATH)">
+        <ConfirmationCallback>
+            <OptionValues>
+                <OptionValue>
+                    <Value>デバイスの登録</Value>
+                </OptionValue>
+                <OptionValue>
+                    <Value>この手順をスキップ</Value>
+                </OptionValue>
+            </OptionValues>
+        </ConfirmationCallback>
+    </Callbacks>
+    <!-- For when we're not optional and a device isn't registered -->
+    <Callbacks length="1" order="3" timeout="120" header="ForgeRock オーセンティケータ (OATH)">
+        <ConfirmationCallback>
+            <OptionValues>
+                <OptionValue>
+                    <Value>デバイスの登録</Value>
+                </OptionValue>
+            </OptionValues>
+        </ConfirmationCallback>
+    </Callbacks>
+    <!-- For when we're not optional and a device is registered -->
+    <Callbacks length="2" order="4" timeout="120" header="#REPLACE#">
+        <NameCallback>
+            <Prompt>確認コードを入力してください:</Prompt>
+        </NameCallback>
+        <ConfirmationCallback>
+            <OptionValues>
+                <OptionValue>
+                    <Value>送信</Value>
+                </OptionValue>
+            </OptionValues>
+        </ConfirmationCallback>
+    </Callbacks>
+    <!-- For registration -->
+    <Callbacks length="3" order="5" timeout="120" header="OpenAMにデバイスを登録">
+        <TextOutputCallback>
+            ForgeRock 認証アプリで以下のバーコード画像をスキャンします。登録後は、確認コードを入力してボタンをクリックし、
+            ログインします。
+        </TextOutputCallback>
+        <TextOutputCallback messageType="script">PLACEHOLDER</TextOutputCallback>
+        <ConfirmationCallback>
+            <OptionValues>
+                <OptionValue>
+                    <Value>確認コードを使用してログイン</Value>
+                </OptionValue>
+            </OptionValues>
+        </ConfirmationCallback>
+    </Callbacks>
+    <!-- For recovery code use -->
+    <Callbacks length="2" order="6" timeout="120" header="ForgeRock オーセンティケータ (OATH) 応急コードが使用されました">
+        <TextOutputCallback>
+            応急 ForgeRock オーセンティケータ (OATH) コードのいずれかが使用されました。残っている ForgeRock オーセンティケータ (OATH) コードを
+            覚えておいてください。
+        </TextOutputCallback>
+        <ConfirmationCallback>
+            <OptionValues>
+                <OptionValue>
+                    <Value>継続</Value>
+                </OptionValue>
+            </OptionValues>
+        </ConfirmationCallback>
+    </Callbacks>
+    <!-- For when we're optional, but we just generated a device -->
+    <Callbacks length="2" order="7" timeout="120" header="#REPLACE#">
+        <NameCallback>
+            <Prompt>確認コードを入力してください:</Prompt>
+        </NameCallback>
+        <ConfirmationCallback>
+            <OptionValues>
+                <OptionValue>
+                    <Value>送信</Value>
+                </OptionValue>
+                <OptionValue>
+                    <Value>この手順をスキップ</Value>
+                </OptionValue>
+            </OptionValues>
+        </ConfirmationCallback>
+    </Callbacks>
+</ModuleProperties>
