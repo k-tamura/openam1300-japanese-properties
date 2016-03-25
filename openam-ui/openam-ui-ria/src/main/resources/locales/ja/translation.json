@@ -695,7 +695,7 @@
         "authentication": {
             "common": {
                 "module": "モジュール",
-                "chain": "連鎖"
+                "chain": "認証連鎖"
             },
             "settings": {
                 "title": "認証設定"
@@ -709,7 +709,7 @@
                 "addModule" : "モジュールの追加",
                 "moduleName" : "モジュール名",
                 "moduleType" : "タイプ",
-                "chain" : "連鎖",
+                "chain" : "認証連鎖",
                 "inUse": {
                     "title": "モジュールの編集",
                     "message": "<code>__moduleName__</code> モジュールは、認証連鎖 <code>__usedChains__</code> で使用されています。このモジュールを編集すると、その動作が変更することがあります。<br><br>継続してもよろしいですか?"
@@ -936,8 +936,8 @@
                 },
                 "list": {
                     "addNew": "新規ポリシーセット",
-                    "importPolicies": "インポートポリシー",
-                    "exportPolicies": "エクスポートポリシー",
+                    "importPolicies": "ポリシーのインポート",
+                    "exportPolicies": "ポリシーのエクスポート",
                     "grid": ["名前"]
                 }
             },
@@ -992,7 +992,7 @@
                             }
                         },
                         "NONE": {
-                            "title": "ネバーマッチ",
+                            "title": "Never Match",
                             "props": {}
                         }
                     },
