@@ -489,7 +489,7 @@
         "select": {
             "allSelected": "すべて選択",
             "noneSelected": "選択されていません",
-            "nSelected": "選択されています,
+            "nSelected": "選択されています",
             "selectAll": "すべて選択"
         }
     },
