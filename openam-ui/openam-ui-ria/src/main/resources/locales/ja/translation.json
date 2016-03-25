@@ -290,7 +290,7 @@
             "download": "ダウンロード",
             "validate": "検証",
             "filter": "フィルタ...",
-            "pass" : "パス",
+            "pass" : "成功",
             "fail" : "失敗",
             "success" : "成功",
             "allow": "許可",
@@ -745,7 +745,7 @@
                 "gotoSuccessUrl" : "ログイン成功 URL に転送",
                 "gotoFailUrl" : "ログイン失敗 URL に転送",
                 "redirectUrls" : "リダイレクト URL",
-                "redirectUrlsHelp" : "対象がリダイレクトされる URL を指定します。認証に失敗時は、正常に認証したときと異なる URL を指定することができます。",
+                "redirectUrlsHelp" : "対象がリダイレクトされる URL を指定します。認証失敗時は、正常に認証したときと異なる URL を指定することができます。",
                 "successUrl" : "ログイン成功 URL",
                 "failUrl" : "ログイン失敗 URL",
                 "addUrl" : "URL の追加",
@@ -795,7 +795,7 @@
                     "defaultOrgAuthChain": "これは組織のデフォルトの認証連鎖です。",
                     "defaultAdminOrgAuthChain": "これは管理者および組織のデフォルトの認証連鎖です。"
                 },
-                "legend" : ["認証が成功する必要があります:","少なくとも1つの成功フラグがあること。", "失敗フラグがないこと。"]
+                "legend" : ["認証が成功するには次が必要です:","少なくとも1つの成功フラグがあること。", "失敗フラグがないこと。"]
             }
         },
         "dashboard":{
