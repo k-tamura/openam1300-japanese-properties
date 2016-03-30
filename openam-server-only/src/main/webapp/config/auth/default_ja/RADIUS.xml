@@ -37,7 +37,7 @@
 
 
 <ModuleProperties moduleName="RADIUS" version="1.0" >
-    <Callbacks length="2" order="2" timeout="60" header="OpenAM へのサインイン" >
+    <Callbacks length="2" order="1" timeout="60" header="OpenAM へのサインイン" >
         <NameCallback>
             <Prompt>RADIUS ID</Prompt>
         </NameCallback>
