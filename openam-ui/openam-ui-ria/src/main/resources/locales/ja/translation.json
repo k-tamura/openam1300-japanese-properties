@@ -136,7 +136,7 @@
                 "registerAccount" : "アカウントを登録してください。",
                 "problemLoggingQuestion" : "ログインのトラブルがありますか？",
                 "socialAuthentication" : "または次でログイン:",
-                "resetPassword" : "パスワードのリセット",
+                "resetPassword" : "パスワードをリセットしますか？",
                 "forgotUsername" : "ユーザー名を忘れましたか?"
             },
             "404" : {
@@ -226,7 +226,7 @@
             "tokenInfo": "トークン情報"
         },
         "login" : {
-            "newHere": "新規作成?",
+            "newHere": "ここで新規作成しますか？",
             "createAccount": "アカウントの作成"
         }
     },
