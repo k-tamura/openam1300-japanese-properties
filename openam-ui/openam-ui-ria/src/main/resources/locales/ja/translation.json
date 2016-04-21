@@ -527,7 +527,7 @@
         },
         "deviceManagement": {
             "header": "認証デバイス",
-            "noneFound": "任意のデバイスが登録されていません。",
+            "noneFound": "デバイスが登録されていません。",
             "menu": {
                 "recoveryCodes": "リカバリーコード",
                 "delete": "削除"
@@ -590,7 +590,7 @@
                 "description": "あなたと共有しているリソース。"
             },
             "starred": {
-                "title": "共有済み",
+                "title": "お気に入り",
                 "description": "お気に入りのリソース。"
             },
             "myLabels": {
