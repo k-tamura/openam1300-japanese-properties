@@ -745,7 +745,7 @@
                 "gotoSuccessUrl" : "ログイン成功 URL に転送",
                 "gotoFailUrl" : "ログイン失敗 URL に転送",
                 "redirectUrls" : "リダイレクト URL",
-                "redirectUrlsHelp" : "対象がリダイレクトされる URL を指定します。認証失敗時は、正常に認証したときと異なる URL を指定することができます。",
+                "redirectUrlsHelp" : "対象がリダイレクトされる URL を指定します。認証失敗時は、認証成功時と異なる URL を指定することができます。",
                 "successUrl" : "ログイン成功 URL",
                 "failUrl" : "ログイン失敗 URL",
                 "addUrl" : "URL の追加",
