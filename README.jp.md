@@ -6,7 +6,7 @@ OpenAM 13.0.0 日本語化ファイル。以下のいずれかができます。
 ビルド方法
 ------
 [TODO] ビルド手順に関しては現在未検証中です。
-※OpenAMのソースコードをチェックアウトするには、Gitライアント が必要です。また、ビルドにはJDK 1.7i以上、Apache Maven 3.1以上が必要です。
+※OpenAMのソースコードをチェックアウトするには、Gitライアント が必要です。また、ビルドにはJDK 1.7以上、Apache Maven 3.1以上が必要です。
 
 (1) "Download ZIP"ボタンをクリックし、openam1300-japanese-properties-master.zipをダウンロード。  
 (2) 以下のコマンドを実行:  
@@ -49,7 +49,7 @@ cp -r openam1300-japanese-properties-master/openam-ui/openam-ui-ria/src/main/res
 cp -rf openam1300-japanese-properties-master/openam-server-only/src/main/webapp/config/auth/default_ja/* $AM_DIR/config/auth/default_ja/
 find openam1300-japanese-properties-master -name '*.properties' -print | xargs cp -t $AM_DIR/WEB-INF/classes/
 rm -fr openam1300-japanese-properties-master
-rm openam1300-japanese-properties-master.zi
+rm openam1300-japanese-properties-master.zip
 ```
 (4) Webアプリケーションコンテナを起動。  
 
