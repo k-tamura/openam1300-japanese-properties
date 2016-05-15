@@ -42,6 +42,7 @@ chmod +x deploy-jp-files.sh
 (2) OpenAMがデプロイされているWebアプリケーションコンテナを停止。  
 (3) 以下のコマンドを実行:  
 ```bash
+export AM_DIR=/usr/share/tomcat7/webapps/openam
 mkdir -p $AM_DIR/XUI/locales/ja/
 unzip openam1300-japanese-properties-master.zip
 cp -pr $AM_DIR/config/auth/default_ja $AM_DIR/config/auth/default_ja_bak
@@ -69,7 +70,7 @@ chmod +x undeploy-jp-files.sh
 (1) OpenAMがデプロイされているWebアプリケーションコンテナを停止。  
 (2) 以下のコマンドを実行:  
 ```bash
-export AM_DIR=/usr/share/tomcat6/webapps/openam
+export AM_DIR=/usr/share/tomcat7/webapps/openam
 rm -fr $AM_DIR/XUI/locales/ja
 rm -f $AM_DIR/WEB-INF/classes/*_ja.properties
 \cp -fr $AM_DIR/config/auth/default_ja_bak/* $AM_DIR/config/auth/default_ja/
