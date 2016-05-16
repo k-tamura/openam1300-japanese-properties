@@ -16,7 +16,7 @@ wget -N --no-check-certificate https://github.com/k-tamura/openam1300-japanese-p
 unzip master.zip
 rm openam1300-japanese-properties-master/README.*
 rm openam1300-japanese-properties-master/*.sh
-cp -r openam1300-japanese-properties-master/* openam-13.0.0/
+\cp -r openam1300-japanese-properties-master/* openam-13.0.0/
 rm -fr openam1300-japanese-properties-master
 cd openam-13.0.0
 export MAVEN_OPTS="-Xmx1024m -XX:MaxPermSize=512m"
