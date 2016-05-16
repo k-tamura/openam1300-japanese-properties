@@ -8,16 +8,15 @@ OpenAM 13.0.0 日本語化ファイル。以下のいずれかができます。
 [TODO] ビルド手順に関しては現在未検証中です。
 ※OpenAMのソースコードをビルドするには、Git 1.7.6 とJDK 1.7以上、Apache Maven 3.1以上が必要です。
 
-(1) "Download ZIP"ボタンをクリックし、openam1300-japanese-properties-master.zipをダウンロード。  
-(2) 以下のコマンドを実行:  
+(1) 以下のコマンドを実行:  
 ```bash
-unzip openam1300-japanese-properties-master.zip
-rm openam1300-japanese-properties-master/README.*
-rm openam1300-japanese-properties-master/*.sh
-rm -fr openam1300-japanese-properties-master/images
 wget https://github.com/ForgeRock/openam/archive/13.0.0.zip
 unzip 13.0.0.zip
 mv openam-13.0.0 openam
+wget -N --no-check-certificate https://github.com/k-tamura/openam1300-japanese-properties/archive/master.zip
+unzip master.zip
+rm openam1300-japanese-properties-master/README.*
+rm openam1300-japanese-properties-master/*.sh
 cp -r openam1300-japanese-properties-master/* openam/
 rm -fr openam1300-japanese-properties-master
 cd openam
@@ -40,10 +39,11 @@ chmod +x deploy-jp-files.sh
 
 または
 
-(1) "Download ZIP"ボタンをクリックし、openam1300-japanese-properties-master.zipをダウンロード。  
-(2) OpenAMがデプロイされているWebアプリケーションコンテナを停止。  
-(3) 以下のコマンドを実行:  
+(1) OpenAMがデプロイされているWebアプリケーションコンテナを停止。  
+(2) 以下のコマンドを実行:  
 ```bash
+wget -N --no-check-certificate https://github.com/k-tamura/openam1300-japanese-properties/archive/master.zip
+unzip master.zip
 export AM_DIR=/usr/share/tomcat7/webapps/openam
 mkdir -p $AM_DIR/XUI/locales/ja/
 unzip openam1300-japanese-properties-master.zip
