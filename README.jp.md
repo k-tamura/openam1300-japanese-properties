@@ -12,14 +12,13 @@ OpenAM 13.0.0 日本語化ファイル。以下のいずれかができます。
 ```bash
 wget https://github.com/ForgeRock/openam/archive/13.0.0.zip
 unzip 13.0.0.zip
-mv openam-13.0.0 openam
 wget -N --no-check-certificate https://github.com/k-tamura/openam1300-japanese-properties/archive/master.zip
 unzip master.zip
 rm openam1300-japanese-properties-master/README.*
 rm openam1300-japanese-properties-master/*.sh
-cp -r openam1300-japanese-properties-master/* openam/
+cp -r openam1300-japanese-properties-master/* openam-13.0.0/
 rm -fr openam1300-japanese-properties-master
-cd openam
+cd openam-13.0.0
 export MAVEN_OPTS="-Xmx1024m -XX:MaxPermSize=512m"
 mvn -DskipTests=true clean install
 ```
