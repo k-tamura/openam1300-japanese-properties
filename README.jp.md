@@ -6,7 +6,7 @@ OpenAM 13.0.0 日本語化ファイル。以下のいずれかができます。
 ビルド方法
 ------
 [TODO] ビルド手順に関しては現在未検証中です。
-※OpenAMのソースコードをチェックアウトするには、Gitライアント が必要です。また、ビルドにはJDK 1.7以上、Apache Maven 3.1以上が必要です。
+※OpenAMのソースコードをビルドするには、Gitクライアント とJDK 1.7以上、Apache Maven 3.1以上が必要です。
 
 (1) "Download ZIP"ボタンをクリックし、openam1300-japanese-properties-master.zipをダウンロード。  
 (2) 以下のコマンドを実行:  
@@ -15,7 +15,8 @@ unzip openam1300-japanese-properties-master.zip
 rm openam1300-japanese-properties-master/README.*
 rm openam1300-japanese-properties-master/*.sh
 rm -fr openam1300-japanese-properties-master/images
-git clone https://stash.forgerock.org/scm/openam/openam.git
+wget https://github.com/ForgeRock/openam/archive/12.0.0.zip
+unzip 12.0.0.zip
 cp -r openam1300-japanese-properties-master/* openam/
 rm -fr openam1300-japanese-properties-master
 cd openam
