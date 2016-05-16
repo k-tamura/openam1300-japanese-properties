@@ -1,7 +1,7 @@
 # openam1300-japanese-properties
 OpenAM 13.0.0 日本語化ファイル。以下のいずれかができます。
-* 日本語に完全対応したOpenAM 13.0.0をビルドする
-* デプロイ済みのOpenAM 13.0.0を完全な日本語対応にする
+* 日本語に完全対応したOpenAM 13.0.0をビルドする(このページの「ビルド方法」のセクションを参照)
+* デプロイ済みのOpenAM 13.0.0を完全な日本語対応にする(このページの「ビルドせずにデプロイする方法」のセクションを参照)
 
 ビルド方法
 ------
@@ -39,25 +39,6 @@ chmod +x deploy-jp-files.sh
 ```
 (3) Webアプリケーションコンテナを起動。  
 
-または
-
-(1) OpenAMがデプロイされているWebアプリケーションコンテナを停止。  
-(2) 以下のコマンドを実行:  
-```bash
-wget -N --no-check-certificate https://github.com/k-tamura/openam1300-japanese-properties/archive/master.zip
-unzip master.zip
-export AM_DIR=/usr/share/tomcat7/webapps/openam
-mkdir -p $AM_DIR/XUI/locales/ja/
-unzip openam1300-japanese-properties-master.zip
-cp -pr $AM_DIR/config/auth/default_ja $AM_DIR/config/auth/default_ja_bak
-cp -r openam1300-japanese-properties-master/openam-ui/openam-ui-ria/src/main/resources/locales/ja/* $AM_DIR/XUI/locales/ja/
-cp -rf openam1300-japanese-properties-master/openam-server-only/src/main/webapp/config/auth/default_ja/* $AM_DIR/config/auth/default_ja/
-find openam1300-japanese-properties-master -name '*.properties' -print | xargs cp -t $AM_DIR/WEB-INF/classes/
-rm -fr openam1300-japanese-properties-master
-rm openam1300-japanese-properties-master.zip
-```
-(4) Webアプリケーションコンテナを起動。  
-
 デプロイしたファイルを削除する方法
 ------
 (1) OpenAMがデプロイされているWebアプリケーションコンテナを停止。  
@@ -68,18 +49,6 @@ chmod +x undeploy-jp-files.sh
 ./undeploy-jp-files.sh
 ```
 (3) Webアプリケーションコンテナを起動。  
-
-または
-
-(1) OpenAMがデプロイされているWebアプリケーションコンテナを停止。  
-(2) 以下のコマンドを実行:  
-```bash
-export AM_DIR=/usr/share/tomcat7/webapps/openam
-rm -fr $AM_DIR/XUI/locales/ja
-rm -f $AM_DIR/WEB-INF/classes/*_ja.properties
-\cp -fr $AM_DIR/config/auth/default_ja_bak/* $AM_DIR/config/auth/default_ja/
-rm -fr $AM_DIR/config/auth/default_ja_bak
-```
 
 ライセンス
 ------
