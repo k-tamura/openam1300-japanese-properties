@@ -15,8 +15,8 @@ unzip openam1300-japanese-properties-master.zip
 rm openam1300-japanese-properties-master/README.*
 rm openam1300-japanese-properties-master/*.sh
 rm -fr openam1300-japanese-properties-master/images
-wget https://github.com/ForgeRock/openam/archive/12.0.0.zip
-unzip 12.0.0.zip
+wget https://github.com/ForgeRock/openam/archive/13.0.0.zip
+unzip 13.0.0.zip
 cp -r openam1300-japanese-properties-master/* openam/
 rm -fr openam1300-japanese-properties-master
 cd openam
