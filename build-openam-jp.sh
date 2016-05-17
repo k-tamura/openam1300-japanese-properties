@@ -4,7 +4,7 @@ if [ ! -e 13.0.0.zip ]; then
     wget -N --no-check-certificate https://github.com/ForgeRock/openam/archive/13.0.0.zip
 fi
 
-# Get the Japanese properties from GitHub.
+# Get Japanese properties from GitHub.
 wget --no-check-certificate https://codeload.github.com/k-tamura/openam1300-japanese-properties/zip/master -O openam1300-japanese-properties-master.zip
 
 # Copy the Japanese properties to OpenAM 13 source code.
@@ -17,7 +17,7 @@ rm openam1300-japanese-properties-master/*.sh
 rm -fr openam1300-japanese-properties-master
 cd openam-13.0.0
 
-# Read a user input (OpenAM installation directory).
+# Read a user input (path to mvn command).
 echo "Please input path to the mvn command if needed. For example, /usr/local/apache-maven-3.1.0/bin/mvn"
 read MVN_CMD
 if [ "$MVN_CMD" = "" ]; then
