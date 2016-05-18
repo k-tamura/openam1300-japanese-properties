@@ -5,7 +5,7 @@ OpenAM 13.0.0 日本語化ファイル。以下のいずれかができます。
 
 ビルド方法
 ------
-以下コマンドを実行すると、OpenAM 13.0.0のソースコードをダウンロードし、それに日本語化ファイルコピーしてMavenでビルドします:  
+以下コマンドを実行すると、OpenAM 13.0.0のソースコードをダウンロードし、それに日本語化ファイルをコピーしてMavenでビルドします:  
 
 ```bash
 wget -N --no-check-certificate https://raw.githubusercontent.com/k-tamura/openam1300-japanese-properties/master/build-openam-jp.sh
