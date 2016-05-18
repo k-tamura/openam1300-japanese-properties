@@ -5,17 +5,17 @@ OpenAM 13.0.0 Japanese properties. You can do one of:
 
 How to build
 ------
-You need Git client version 1.7.6 to checkout code anonymously and JDK 1.7/Maven 3.1.x for building.
-- Git 1.7.6  or above
-- JDK 1.7 or above
-- Apache Maven 3.1 or above
-
-(1) Execute the commands:  
+Execute the commands to copy Japanese properties to the OpenAM 13.0.0 source code and build by Maven:  
 ```bash
 wget -N --no-check-certificate https://raw.githubusercontent.com/k-tamura/openam1300-japanese-properties/master/build-openam-jp.sh
 chmod +x build-openam-jp.sh
 ./build-openam-jp.sh
 ```
+
+You need Git client version 1.7.6 to checkout code anonymously and JDK 1.7/Maven 3.1.x for building.
+- Git 1.7.6  or above
+- JDK 1.7 or above
+- Apache Maven 3.1 or above
 
 How to deploy without build
 ------
