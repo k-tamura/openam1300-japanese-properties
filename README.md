@@ -1,5 +1,5 @@
 # openam1300-japanese-properties
-OpenAM 13.0.0 Japanese properties. You can do one of:
+OpenAM 13.0.0 Japanese properties. You can build a fully localized OpenAM war or localize a deployed OpenAM:
 * To build OpenAM 13.0.0 that fully localized to Japanese, please refer to the section "How to build" in this page
 * To localize a deployed OpenAM 13.0.0 server in Japanese, please refer to the section "How to deploy without build" in this page
 
