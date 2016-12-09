@@ -12,7 +12,7 @@ chmod +x build-openam-jp.sh
 ./build-openam-jp.sh
 ```
 
-You need Git client version 1.7.6 to checkout code anonymously and JDK 1.7/Maven 3.1.x for building.
+You need Git client to checkout code anonymously and JDK/Maven for building.
 - Git 1.7.6  or above
 - JDK 1.7 or above
 - Apache Maven 3.1 or above
